@@ -1,6 +1,6 @@
 const FILM_LISTS = {
   "letterboxd": {
-    "label": "Top 500 Letterboxd Bulletpoint",
+    "label": "Top 500 Letterboxd",
     "films": [
       [
         "Harakiri",
