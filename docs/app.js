@@ -11,18 +11,19 @@ const HIGH_ELO_WEIGHT = 2.0;
 
 // ── State ───────────────────────────────────────────────────────────────────
 
-let films = createFilms();
+let currentListKey = "letterboxd";
+let films = createFilms(FILM_LISTS[currentListKey].films);
 let comparisons = 0;
 let history = [];
 let pair = [];
 
 // ── Filmliste ───────────────────────────────────────────────────────────────
 
-function createFilms() {
+function createFilms(rawFilms) {
   const films = [];
   const seen = new Set();
 
-  for (const [title, year, director] of FILMS_RAW) {
+  for (const [title, year, director] of rawFilms) {
     const key = title.toLowerCase().trim();
     if (seen.has(key)) continue;
 
@@ -130,6 +131,7 @@ const newTitleInput = document.querySelector("#newTitleInput");
 const addFilmButton = document.querySelector("#addFilmButton");
 const addFeedback = document.querySelector("#addFeedback");
 const startButton = document.querySelector("#startButton");
+const listSelect = document.querySelector("#listSelect");
 
 const undoButton = document.querySelector("#undoButton");
 const resultsButton = document.querySelector("#resultsButton");
@@ -156,6 +158,16 @@ function showPage(page) {
 function setFeedback(text, type = "") {
   addFeedback.textContent = text;
   addFeedback.className = `feedback ${type}`.trim();
+}
+
+function resetRankingForList(listKey) {
+  currentListKey = listKey;
+  films = createFilms(FILM_LISTS[currentListKey].films);
+  comparisons = 0;
+  history = [];
+  pair = [];
+  newTitleInput.value = "";
+  setFeedback(`${FILM_LISTS[currentListKey].label}: ${films.length} Filme geladen.`, "good");
 }
 
 function normalize(text) {
@@ -379,6 +391,7 @@ newTitleInput.addEventListener("keydown", event => {
 });
 
 addFilmButton.addEventListener("click", addFilm);
+listSelect.addEventListener("change", () => resetRankingForList(listSelect.value));
 startButton.addEventListener("click", startQuiz);
 undoButton.addEventListener("click", undo);
 resultsButton.addEventListener("click", showResults);
@@ -392,3 +405,5 @@ cards.forEach((card, side) => {
     skip(side);
   });
 });
+
+resetRankingForList(currentListKey);
