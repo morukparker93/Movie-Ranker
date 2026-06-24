@@ -13,6 +13,7 @@ const HIGH_ELO_WEIGHT = 2.0;
 
 let currentListKey = "letterboxd";
 let films = createFilms(FILM_LISTS[currentListKey].films);
+let comparedPairs = new Set();
 let comparisons = 0;
 let history = [];
 let pair = [];
@@ -48,6 +49,10 @@ function newFilm(title, year = "?", director = "Unbekannt") {
 }
 
 // ── Pair-Auswahl ────────────────────────────────────────────────────────────
+
+function pairKey(a, b) {
+  return [a, b].sort((x, y) => x - y).join("-");
+}
 
 function topComparisonTarget() {
   const topFilms = films.filter(
@@ -101,14 +106,20 @@ function chooseFilm(exclude = null) {
 }
 
 function choosePair() {
-  const first = chooseFilm();
-  const second = chooseFilm(first);
+  for (let tries = 0; tries < 100; tries++) {
+    const first = chooseFilm();
+    const second = chooseFilm(first);
 
-  if (first === null || second === null) return null;
+    if (first === null || second === null) return null;
 
-  const nextPair = [first, second];
-  shuffle(nextPair);
-  return nextPair;
+    if (!comparedPairs.has(pairKey(first, second))) {
+      const nextPair = [first, second];
+      shuffle(nextPair);
+      return nextPair;
+    }
+  }
+
+  return null;
 }
 
 // ── ELO ─────────────────────────────────────────────────────────────────────
@@ -230,7 +241,10 @@ function nextPair() {
   const next = choosePair();
 
   if (next === null) {
-    alert("Nicht genug aktive Filme übrig.");
+    alert(
+      "Alle möglichen Vergleiche wurden durchgeführt.\n\n" +
+      "Du kannst die Ergebnisse ansehen oder weitere Filme hinzufügen."
+    );
     return;
   }
 
@@ -249,6 +263,9 @@ function updateCard(side, film) {
 function choose(side) {
   const winnerIndex = pair[side];
   const loserIndex = pair[1 - side];
+
+  comparedPairs.add(pairKey(winnerIndex, loserIndex));
+
   const winner = films[winnerIndex];
   const loser = films[loserIndex];
 
