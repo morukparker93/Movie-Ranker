@@ -2,4911 +2,1162 @@ const FILM_LISTS = {
   "letterboxd": {
     "label": "Top 500 Letterboxd",
     "films": [
-      [
-        "Harakiri",
-        1962,
-        "Masaki Kobayashi"
-      ],
-      [
-        "The Human Condition III: A Soldier's Prayer",
-        1961,
-        "Masaki Kobayashi"
-      ],
-      [
-        "12 Angry Men",
-        1957,
-        "Sidney Lumet"
-      ],
-      [
-        "Come and See",
-        1985,
-        "Elem Klimov"
-      ],
-      [
-        "Seven Samurai",
-        1954,
-        "Akira Kurosawa"
-      ],
-      [
-        "High and Low",
-        1963,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Shawshank Redemption",
-        1994,
-        "Frank Darabont"
-      ],
-      [
-        "The Godfather Part II",
-        1974,
-        "Francis Ford Coppola"
-      ],
-      [
-        "The Human Condition I: No Greater Love",
-        1959,
-        "Masaki Kobayashi"
-      ],
-      [
-        "City of God",
-        2002,
-        "Fernando Meirelles, Kátia Lund"
-      ],
-      [
-        "The Lord of the Rings: The Return of the King",
-        2003,
-        "Peter Jackson"
-      ],
-      [
-        "Schindler's List",
-        1993,
-        "Steven Spielberg"
-      ],
-      [
-        "Yi Yi",
-        2000,
-        "Edward Yang"
-      ],
-      [
-        "Parasite",
-        2019,
-        "Bong Joon-ho"
-      ],
-      [
-        "The Godfather",
-        1972,
-        "Francis Ford Coppola"
-      ],
-      [
-        "Ikiru",
-        1952,
-        "Akira Kurosawa"
-      ],
-      [
-        "Cinema Paradiso",
-        1988,
-        "Giuseppe Tornatore"
-      ],
-      [
-        "Ran",
-        1985,
-        "Akira Kurosawa"
-      ],
-      [
-        "Le Trou",
-        1960,
-        "Jacques Becker"
-      ],
-      [
-        "The Good, the Bad and the Ugly",
-        1966,
-        "Sergio Leone"
-      ],
-      [
-        "La Haine",
-        1995,
-        "Mathieu Kassovitz"
-      ],
-      [
-        "A Brighter Summer Day",
-        1991,
-        "Edward Yang"
-      ],
-      [
-        "Autumn Sonata",
-        1978,
-        "Ingmar Bergman"
-      ],
-      [
-        "The Human Condition II: Road to Eternity",
-        1959,
-        "Masaki Kobayashi"
-      ],
-      [
-        "The Dark Knight",
-        2008,
-        "Christopher Nolan"
-      ],
-      [
-        "Grave of the Fireflies",
-        1988,
-        "Isao Takahata"
-      ],
-      [
-        "Neon Genesis Evangelion: The End of Evangelion",
-        1997,
-        "Hideaki Anno, Kazuya Tsurumaki"
-      ],
-      [
-        "Woman in the Dunes",
-        1964,
-        "Hiroshi Teshigahara"
-      ],
-      [
-        "The Battle of Algiers",
-        1966,
-        "Gillo Pontecorvo"
-      ],
-      [
-        "There Will Be Blood",
-        2007,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "I Am Cuba",
-        1964,
-        "Mikhail Kalatozov"
-      ],
-      [
-        "The Cranes Are Flying",
-        1957,
-        "Mikhail Kalatozov"
-      ],
-      [
-        "GoodFellas",
-        1990,
-        "Martin Scorsese"
-      ],
-      [
-        "Interstellar",
-        2014,
-        "Christopher Nolan"
-      ],
-      [
-        "Paths of Glory",
-        1957,
-        "Stanley Kubrick"
-      ],
-      [
-        "Incendies",
-        2010,
-        "Denis Villeneuve"
-      ],
-      [
-        "Spirited Away",
-        2001,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Andrei Rublev",
-        1966,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "It's a Wonderful Life",
-        1946,
-        "Frank Capra"
-      ],
-      [
-        "The Ascent",
-        1977,
-        "Larisa Shepitko"
-      ],
-      [
-        "Apocalypse Now",
-        1979,
-        "Francis Ford Coppola"
-      ],
-      [
-        "The Apartment",
-        1960,
-        "Billy Wilder"
-      ],
-      [
-        "Sunset Boulevard",
-        1950,
-        "Billy Wilder"
-      ],
-      [
-        "The Lord of the Rings: The Two Towers",
-        2002,
-        "Peter Jackson"
-      ],
-      [
-        "Tokyo Story",
-        1953,
-        "Yasujirō Ozu"
-      ],
-      [
-        "Sansho the Bailiff",
-        1954,
-        "Kenji Mizoguchi"
-      ],
-      [
-        "The Passion of Joan of Arc",
-        1928,
-        "Carl Theodor Dreyer"
-      ],
-      [
-        "Whiplash",
-        2014,
-        "Damien Chazelle"
-      ],
-      [
-        "Fanny and Alexander",
-        1982,
-        "Ingmar Bergman"
-      ],
-      [
-        "Mishima: A Life in Four Chapters",
-        1985,
-        "Paul Schrader"
-      ],
-      [
-        "Portrait of a Lady on Fire",
-        2019,
-        "Céline Sciamma"
-      ],
-      [
-        "Memories of Murder",
-        2003,
-        "Bong Joon-ho"
-      ],
-      [
-        "Red Beard",
-        1965,
-        "Akira Kurosawa"
-      ],
-      [
-        "Close-Up",
-        1990,
-        "Abbas Kiarostami"
-      ],
-      [
-        "Life Is Beautiful",
-        1997,
-        "Roberto Benigni"
-      ],
-      [
-        "The Red Shoes",
-        1948,
-        "Michael Powell, Emeric Pressburger"
-      ],
-      [
-        "Nobody Knows",
-        2004,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "Witness for the Prosecution",
-        1957,
-        "Billy Wilder"
-      ],
-      [
-        "Nights of Cabiria",
-        1957,
-        "Federico Fellini"
-      ],
-      [
-        "Barry Lyndon",
-        1975,
-        "Stanley Kubrick"
-      ],
-      [
-        "The Pianist",
-        2002,
-        "Roman Polanski"
-      ],
-      [
-        "Lawrence of Arabia",
-        1962,
-        "David Lean"
-      ],
-      [
-        "Farewell My Concubine",
-        1993,
-        "Chen Kaige"
-      ],
-      [
-        "Spider-Man: Across the Spider-Verse",
-        2023,
-        "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson"
-      ],
-      [
-        "The Empire Strikes Back",
-        1980,
-        "Irvin Kershner"
-      ],
-      [
-        "A Woman Under the Influence",
-        1974,
-        "John Cassavetes"
-      ],
-      [
-        "Do the Right Thing",
-        1989,
-        "Spike Lee"
-      ],
-      [
-        "Eternity and a Day",
-        1998,
-        "Theo Angelopoulos"
-      ],
-      [
-        "Stalker",
-        1979,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "Spider-Man: Into the Spider-Verse",
-        2018,
-        "Bob Persichetti, Peter Ramsey, Rodney Rothman"
-      ],
-      [
-        "Satantango",
-        1994,
-        "Béla Tarr"
-      ],
-      [
-        "Princess Mononoke",
-        1997,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Swing Girls",
-        2004,
-        "Shinobu Yaguchi"
-      ],
-      [
-        "The Handmaiden",
-        2016,
-        "Park Chan-wook"
-      ],
-      [
-        "The Voice of Hind Rajab",
-        2025,
-        "Kaouther Ben Hania"
-      ],
-      [
-        "Love Exposure",
-        2008,
-        "Sion Sono"
-      ],
-      [
-        "The Lord of the Rings: The Fellowship of the Ring",
-        2001,
-        "Peter Jackson"
-      ],
-      [
-        "Once Upon a Time in the West",
-        1968,
-        "Sergio Leone"
-      ],
-      [
-        "Paper Moon",
-        1973,
-        "Peter Bogdanovich"
-      ],
-      [
-        "An Elephant Sitting Still",
-        2018,
-        "Hu Bo"
-      ],
-      [
-        "Scenes from a Marriage",
-        1974,
-        "Ingmar Bergman"
-      ],
-      [
-        "Persona",
-        1966,
-        "Ingmar Bergman"
-      ],
-      [
-        "Perfect Blue",
-        1997,
-        "Satoshi Kon"
-      ],
-      [
-        "Good Will Hunting",
-        1997,
-        "Gus Van Sant"
-      ],
-      [
-        "Dune: Part Two",
-        2024,
-        "Denis Villeneuve"
-      ],
-      [
-        "Where Is the Friend's House?",
-        1987,
-        "Abbas Kiarostami"
-      ],
-      [
-        "In the Mood for Love",
-        2000,
-        "Wong Kar-wai"
-      ],
-      [
-        "Apur Sansar",
-        1959,
-        "Satyajit Ray"
-      ],
-      [
-        "A Separation",
-        2011,
-        "Asghar Farhadi"
-      ],
-      [
-        "Se7en",
-        1995,
-        "David Fincher"
-      ],
-      [
-        "Sherlock Jr.",
-        1924,
-        "Buster Keaton"
-      ],
-      [
-        "Z",
-        1969,
-        "Costa-Gavras"
-      ],
-      [
-        "One Flew Over the Cuckoo's Nest",
-        1975,
-        "Miloš Forman"
-      ],
-      [
-        "Paris, Texas",
-        1984,
-        "Wim Wenders"
-      ],
-      [
-        "Rear Window",
-        1954,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Inglourious Basterds",
-        2009,
-        "Quentin Tarantino"
-      ],
-      [
-        "Oldboy",
-        2003,
-        "Park Chan-wook"
-      ],
-      [
-        "All About Eve",
-        1950,
-        "Joseph L. Mankiewicz"
-      ],
-      [
-        "The Wages of Fear",
-        1953,
-        "Henri-Georges Clouzot"
-      ],
-      [
-        "Landscape in the Mist",
-        1988,
-        "Theo Angelopoulos"
-      ],
-      [
-        "Army of Shadows",
-        1969,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "Judgment at Nuremberg",
-        1961,
-        "Stanley Kramer"
-      ],
-      [
-        "Howl's Moving Castle",
-        2004,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Central Station",
-        1998,
-        "Walter Salles"
-      ],
-      [
-        "Amadeus",
-        1984,
-        "Miloš Forman"
-      ],
-      [
-        "It's Such a Beautiful Day",
-        2012,
-        "Don Hertzfeldt"
-      ],
-      [
-        "Ordet",
-        1955,
-        "Carl Theodor Dreyer"
-      ],
-      [
-        "Chainsaw Man – The Movie: Reze Arc",
-        2025,
-        "Tatsuya Yoshihara"
-      ],
-      [
-        "The Thing",
-        1982,
-        "John Carpenter"
-      ],
-      [
-        "How to Make Millions Before Grandma Dies",
-        2024,
-        "Pat Boonnitipat"
-      ],
-      [
-        "A Man Escaped",
-        1956,
-        "Robert Bresson"
-      ],
-      [
-        "Dead Poets Society",
-        1989,
-        "Peter Weir"
-      ],
-      [
-        "Raise the Red Lantern",
-        1991,
-        "Zhang Yimou"
-      ],
-      [
-        "Singin' in the Rain",
-        1952,
-        "Gene Kelly, Stanley Donen"
-      ],
-      [
-        "A Special Day",
-        1977,
-        "Ettore Scola"
-      ],
-      [
-        "All That Jazz",
-        1979,
-        "Bob Fosse"
-      ],
-      [
-        "Still Walking",
-        2008,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "The Departed",
-        2006,
-        "Martin Scorsese"
-      ],
-      [
-        "I'm Still Here",
-        2024,
-        "Walter Salles"
-      ],
-      [
-        "Monster",
-        2023,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "To Be or Not to Be",
-        1942,
-        "Ernst Lubitsch"
-      ],
-      [
-        "The Silence of the Lambs",
-        1991,
-        "Jonathan Demme"
-      ],
-      [
-        "Three Colours: Red",
-        1994,
-        "Krzysztof Kieślowski"
-      ],
-      [
-        "Twin Peaks: Fire Walk with Me",
-        1992,
-        "David Lynch"
-      ],
-      [
-        "Late Spring",
-        1949,
-        "Yasujirō Ozu"
-      ],
-      [
-        "Django Unchained",
-        2012,
-        "Quentin Tarantino"
-      ],
-      [
-        "Prisoners",
-        2013,
-        "Denis Villeneuve"
-      ],
-      [
-        "Das Boot",
-        1981,
-        "Wolfgang Petersen"
-      ],
-      [
-        "Wild Strawberries",
-        1957,
-        "Ingmar Bergman"
-      ],
-      [
-        "Rocco and His Brothers",
-        1960,
-        "Luchino Visconti"
-      ],
-      [
-        "City Lights",
-        1931,
-        "Charlie Chaplin"
-      ],
-      [
-        "Funeral Parade of Roses",
-        1969,
-        "Toshio Matsumoto"
-      ],
-      [
-        "The Great Dictator",
-        1940,
-        "Charlie Chaplin"
-      ],
-      [
-        "The Seventh Seal",
-        1957,
-        "Ingmar Bergman"
-      ],
-      [
-        "Pather Panchali",
-        1955,
-        "Satyajit Ray"
-      ],
-      [
-        "Underground",
-        1995,
-        "Emir Kusturica"
-      ],
-      [
-        "Taste of Cherry",
-        1997,
-        "Abbas Kiarostami"
-      ],
-      [
-        "The Celebration",
-        1998,
-        "Thomas Vinterberg"
-      ],
-      [
-        "Brief Encounter",
-        1945,
-        "David Lean"
-      ],
-      [
-        "The Young Girls of Rochefort",
-        1967,
-        "Jacques Demy"
-      ],
-      [
-        "Mirror",
-        1975,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "Mommy",
-        2014,
-        "Xavier Dolan"
-      ],
-      [
-        "Before Sunset",
-        2004,
-        "Richard Linklater"
-      ],
-      [
-        "Project Hail Mary",
-        2026,
-        "Phil Lord, Christopher Miller"
-      ],
-      [
-        "Perfect Days",
-        2023,
-        "Wim Wenders"
-      ],
-      [
-        "Tampopo",
-        1985,
-        "Jūzō Itami"
-      ],
-      [
-        "Psycho",
-        1960,
-        "Alfred Hitchcock"
-      ],
-      [
-        "No Country for Old Men",
-        2007,
-        "Joel Coen, Ethan Coen"
-      ],
-      [
-        "Werckmeister Harmonies",
-        2000,
-        "Béla Tarr, Ágnes Hranitzky"
-      ],
-      [
-        "Heat",
-        1995,
-        "Michael Mann"
-      ],
-      [
-        "Wings of Desire",
-        1987,
-        "Wim Wenders"
-      ],
-      [
-        "Puella Magi Madoka Magica the Movie Part III: Rebellion",
-        2013,
-        "Akiyuki Shinbo, Yukihiro Miyamoto"
-      ],
-      [
-        "Sing Sing",
-        2023,
-        "Greg Kwedar"
-      ],
-      [
-        "Dog Day Afternoon",
-        1975,
-        "Sidney Lumet"
-      ],
-      [
-        "Shoplifters",
-        2018,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "The Elephant Man",
-        1980,
-        "David Lynch"
-      ],
-      [
-        "The 400 Blows",
-        1959,
-        "François Truffaut"
-      ],
-      [
-        "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-        1964,
-        "Stanley Kubrick"
-      ],
-      [
-        "The Cremator",
-        1969,
-        "Juraj Herz"
-      ],
-      [
-        "Chinatown",
-        1974,
-        "Roman Polanski"
-      ],
-      [
-        "Dersu Uzala",
-        1975,
-        "Akira Kurosawa"
-      ],
-      [
-        "Children of Men",
-        2006,
-        "Alfonso Cuarón"
-      ],
-      [
-        "Fantastic Mr. Fox",
-        2009,
-        "Wes Anderson"
-      ],
-      [
-        "Before Sunrise",
-        1995,
-        "Richard Linklater"
-      ],
-      [
-        "Yojimbo",
-        1961,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Treasure of the Sierra Madre",
-        1948,
-        "John Huston"
-      ],
-      [
-        "Children of Paradise",
-        1945,
-        "Marcel Carné"
-      ],
-      [
-        "Opening Night",
-        1977,
-        "John Cassavetes"
-      ],
-      [
-        "The Lives of Others",
-        2006,
-        "Florian Henckel von Donnersmarck"
-      ],
-      [
-        "Malcolm X",
-        1992,
-        "Spike Lee"
-      ],
-      [
-        "M",
-        1931,
-        "Fritz Lang"
-      ],
-      [
-        "We All Loved Each Other So Much",
-        1974,
-        "Ettore Scola"
-      ],
-      [
-        "The Sacrifice",
-        1986,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "The Father",
-        2020,
-        "Florian Zeller"
-      ],
-      [
-        "Nirvanna the Band the Show the Movie",
-        2025,
-        "Matt Johnson"
-      ],
-      [
-        "Terminator 2: Judgment Day",
-        1991,
-        "James Cameron"
-      ],
-      [
-        "La Notte",
-        1961,
-        "Michelangelo Antonioni"
-      ],
-      [
-        "Fail Safe",
-        1964,
-        "Sidney Lumet"
-      ],
-      [
-        "Azur & Asmar: The Princes' Quest",
-        2006,
-        "Michel Ocelot"
-      ],
-      [
-        "Secrets & Lies",
-        1996,
-        "Mike Leigh"
-      ],
-      [
-        "The Man Who Shot Liberty Valance",
-        1962,
-        "John Ford"
-      ],
-      [
-        "Bicycle Thieves",
-        1948,
-        "Vittorio De Sica"
-      ],
-      [
-        "Evangelion: 3.0+1.0 Thrice Upon a Time",
-        2021,
-        "Hideaki Anno, Kazuya Tsurumaki, Katsuichi Nakayama, Mahiro Maeda"
-      ],
-      [
-        "The Green Mile",
-        1999,
-        "Frank Darabont"
-      ],
-      [
-        "The Prestige",
-        2006,
-        "Christopher Nolan"
-      ],
-      [
-        "The Hunt",
-        2012,
-        "Thomas Vinterberg"
-      ],
-      [
-        "Nostalgia",
-        1983,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "Life, and Nothing More…",
-        1992,
-        "Abbas Kiarostami"
-      ],
-      [
-        "The Iron Giant",
-        1999,
-        "Brad Bird"
-      ],
-      [
-        "Akira",
-        1988,
-        "Katsuhiro Otomo"
-      ],
-      [
-        "Song of the Sea",
-        2014,
-        "Tomm Moore"
-      ],
-      [
-        "Casablanca",
-        1942,
-        "Michael Curtiz"
-      ],
-      [
-        "Ace in the Hole",
-        1951,
-        "Billy Wilder"
-      ],
-      [
-        "Cure",
-        1997,
-        "Kiyoshi Kurosawa"
-      ],
-      [
-        "Chungking Express",
-        1994,
-        "Wong Kar-wai"
-      ],
-      [
-        "Some Like It Hot",
-        1959,
-        "Billy Wilder"
-      ],
-      [
-        "Ritual",
-        2000,
-        "Hideaki Anno"
-      ],
-      [
-        "Look Back",
-        2024,
-        "Kiyotaka Oshiyama"
-      ],
-      [
-        "8½",
-        1963,
-        "Federico Fellini"
-      ],
-      [
-        "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem",
-        2003,
-        "Kazuhisa Takenouchi"
-      ],
-      [
-        "Fight Club",
-        1999,
-        "David Fincher"
-      ],
-      [
-        "Throne of Blood",
-        1957,
-        "Akira Kurosawa"
-      ],
-      [
-        "Who's Afraid of Virginia Woolf?",
-        1966,
-        "Mike Nichols"
-      ],
-      [
-        "Sorcerer",
-        1977,
-        "William Friedkin"
-      ],
-      [
-        "La Dolce Vita",
-        1960,
-        "Federico Fellini"
-      ],
-      [
-        "Rififi",
-        1955,
-        "Jules Dassin"
-      ],
-      [
-        "Aparajito",
-        1956,
-        "Satyajit Ray"
-      ],
-      [
-        "Mary and Max",
-        2009,
-        "Adam Elliot"
-      ],
-      [
-        "A Matter of Life and Death",
-        1946,
-        "Michael Powell, Emeric Pressburger"
-      ],
-      [
-        "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
-        1975,
-        "Chantal Akerman"
-      ],
-      [
-        "Ugetsu",
-        1953,
-        "Kenji Mizoguchi"
-      ],
-      [
-        "Network",
-        1976,
-        "Sidney Lumet"
-      ],
-      [
-        "The Tale of The Princess Kaguya",
-        2013,
-        "Isao Takahata"
-      ],
-      [
-        "Mulholland Drive",
-        2001,
-        "David Lynch"
-      ],
-      [
-        "Il Sorpasso",
-        1962,
-        "Dino Risi"
-      ],
-      [
-        "Umberto D.",
-        1952,
-        "Vittorio De Sica"
-      ],
-      [
-        "Modern Times",
-        1936,
-        "Charlie Chaplin"
-      ],
-      [
-        "The Night of the Hunter",
-        1955,
-        "Charles Laughton"
-      ],
-      [
-        "The Face of Another",
-        1966,
-        "Hiroshi Teshigahara"
-      ],
-      [
-        "The Fall",
-        2006,
-        "Tarsem Singh"
-      ],
-      [
-        "Double Indemnity",
-        1944,
-        "Billy Wilder"
-      ],
-      [
-        "Saving Private Ryan",
-        1998,
-        "Steven Spielberg"
-      ],
-      [
-        "The Holdovers",
-        2023,
-        "Alexander Payne"
-      ],
-      [
-        "I Swear",
-        2025,
-        "Kirk Jones"
-      ],
-      [
-        "A Moment of Innocence",
-        1996,
-        "Mohsen Makhmalbaf"
-      ],
-      [
-        "Kes",
-        1969,
-        "Ken Loach"
-      ],
-      [
-        "Winter Light",
-        1963,
-        "Ingmar Bergman"
-      ],
-      [
-        "The First Slam Dunk",
-        2022,
-        "Takehiko Inoue"
-      ],
-      [
-        "Tokyo Godfathers",
-        2003,
-        "Satoshi Kon"
-      ],
-      [
-        "4 Months, 3 Weeks and 2 Days",
-        2007,
-        "Cristian Mungiu"
-      ],
-      [
-        "The Best Years of Our Lives",
-        1946,
-        "William Wyler"
-      ],
-      [
-        "Alien",
-        1979,
-        "Ridley Scott"
-      ],
-      [
-        "The Sound of Music",
-        1965,
-        "Robert Wise"
-      ],
-      [
-        "Macario",
-        1960,
-        "Roberto Gavaldón"
-      ],
-      [
-        "The Bridge on the River Kwai",
-        1957,
-        "David Lean"
-      ],
-      [
-        "Quo Vadis, Aida?",
-        2020,
-        "Jasmila Žbanić"
-      ],
-      [
-        "Son of the White Mare",
-        1981,
-        "Marcell Jankovics"
-      ],
-      [
-        "2001: A Space Odyssey",
-        1968,
-        "Stanley Kubrick"
-      ],
-      [
-        "Anatomy of a Murder",
-        1959,
-        "Otto Preminger"
-      ],
-      [
-        "Everything Everywhere All at Once",
-        2022,
-        "Daniel Kwan, Daniel Scheinert"
-      ],
-      [
-        "Metropolis",
-        1927,
-        "Fritz Lang"
-      ],
-      [
-        "Marcel the Shell with Shoes On",
-        2021,
-        "Dean Fleischer Camp"
-      ],
-      [
-        "The Secret in Their Eyes",
-        2009,
-        "Juan José Campanella"
-      ],
-      [
-        "Kwaidan",
-        1964,
-        "Masaki Kobayashi"
-      ],
-      [
-        "The Grand Budapest Hotel",
-        2014,
-        "Wes Anderson"
-      ],
-      [
-        "Kamikaze Girls",
-        2004,
-        "Tetsuya Nakashima"
-      ],
-      [
-        "Vada Chennai",
-        2018,
-        "Vetrimaaran"
-      ],
-      [
-        "Eternal Sunshine of the Spotless Mind",
-        2004,
-        "Michel Gondry"
-      ],
-      [
-        "WALL·E",
-        2008,
-        "Andrew Stanton"
-      ],
-      [
-        "Sweet Smell of Success",
-        1957,
-        "Alexander Mackendrick"
-      ],
-      [
-        "Time of the Gypsies",
-        1988,
-        "Emir Kusturica"
-      ],
-      [
-        "For a Few Dollars More",
-        1965,
-        "Sergio Leone"
-      ],
-      [
-        "Poetry",
-        2010,
-        "Lee Chang-dong"
-      ],
-      [
-        "The Third Man",
-        1949,
-        "Carol Reed"
-      ],
-      [
-        "An Autumn Afternoon",
-        1962,
-        "Yasujirō Ozu"
-      ],
-      [
-        "Pulp Fiction",
-        1994,
-        "Quentin Tarantino"
-      ],
-      [
-        "The Lovers on the Bridge",
-        1991,
-        "Leos Carax"
-      ],
-      [
-        "Dreams",
-        1990,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Life and Death of Colonel Blimp",
-        1943,
-        "Michael Powell, Emeric Pressburger"
-      ],
-      [
-        "The King of Comedy",
-        1982,
-        "Martin Scorsese"
-      ],
-      [
-        "To Live",
-        1994,
-        "Zhang Yimou"
-      ],
-      [
-        "Kagemusha",
-        1980,
-        "Akira Kurosawa"
-      ],
-      [
-        "Millennium Actress",
-        2001,
-        "Satoshi Kon"
-      ],
-      [
-        "Amour",
-        2012,
-        "Michael Haneke"
-      ],
-      [
-        "Wolfwalkers",
-        2020,
-        "Tomm Moore, Ross Stewart"
-      ],
-      [
-        "Inception",
-        2010,
-        "Christopher Nolan"
-      ],
-      [
-        "Ratatouille",
-        2007,
-        "Brad Bird"
-      ],
-      [
-        "The Devils",
-        1971,
-        "Ken Russell"
-      ],
-      [
-        "Your Name.",
-        2016,
-        "Makoto Shinkai"
-      ],
-      [
-        "Embrace of the Serpent",
-        2015,
-        "Ciro Guerra"
-      ],
-      [
-        "The Turin Horse",
-        2011,
-        "Béla Tarr, Ágnes Hranitzky"
-      ],
-      [
-        "Trainspotting",
-        1996,
-        "Danny Boyle"
-      ],
-      [
-        "The Lion King",
-        1994,
-        "Roger Allers, Rob Minkoff"
-      ],
-      [
-        "Once Upon a Time in America",
-        1984,
-        "Sergio Leone"
-      ],
-      [
-        "Magnolia",
-        1999,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "The White Ribbon",
-        2009,
-        "Michael Haneke"
-      ],
-      [
-        "Fireworks",
-        1997,
-        "Takeshi Kitano"
-      ],
-      [
-        "Solaris",
-        1972,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "The Truman Show",
-        1998,
-        "Peter Weir"
-      ],
-      [
-        "Dancer in the Dark",
-        2000,
-        "Lars von Trier"
-      ],
-      [
-        "Shame",
-        1968,
-        "Ingmar Bergman"
-      ],
-      [
-        "Vertigo",
-        1958,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Thelma & Louise",
-        1991,
-        "Ridley Scott"
-      ],
-      [
-        "The Shining",
-        1980,
-        "Stanley Kubrick"
-      ],
-      [
-        "The Young and the Damned",
-        1950,
-        "Luis Buñuel"
-      ],
-      [
-        "They Shoot Horses, Don't They?",
-        1969,
-        "Sydney Pollack"
-      ],
-      [
-        "Capernaum",
-        2018,
-        "Nadine Labaki"
-      ],
-      [
-        "Joint Security Area",
-        2000,
-        "Park Chan-wook"
-      ],
-      [
-        "Children of Heaven",
-        1997,
-        "Majid Majidi"
-      ],
-      [
-        "Le Samouraï",
-        1967,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "The Man Who Sleeps",
-        1974,
-        "Bernard Queysanne"
-      ],
-      [
-        "Cria!",
-        1976,
-        "Carlos Saura"
-      ],
-      [
-        "Kill Bill: Vol. 1",
-        2003,
-        "Quentin Tarantino"
-      ],
-      [
-        "Investigation of a Citizen Above Suspicion",
-        1970,
-        "Elio Petri"
-      ],
-      [
-        "The Deer Hunter",
-        1978,
-        "Michael Cimino"
-      ],
-      [
-        "Winter Sleep",
-        2014,
-        "Nuri Bilge Ceylan"
-      ],
-      [
-        "Little Miss Sunshine",
-        2006,
-        "Jonathan Dayton, Valerie Faris"
-      ],
-      [
-        "Hope",
-        2013,
-        "Lee Joon-ik"
-      ],
-      [
-        "Y Tu Mamá También",
-        2001,
-        "Alfonso Cuarón"
-      ],
-      [
-        "Mysterious Skin",
-        2004,
-        "Gregg Araki"
-      ],
-      [
-        "Happy Together",
-        1997,
-        "Wong Kar-wai"
-      ],
-      [
-        "Cries and Whispers",
-        1972,
-        "Ingmar Bergman"
-      ],
-      [
-        "Meiyazhagan",
-        2024,
-        "C. Prem Kumar"
-      ],
-      [
-        "Le Cercle Rouge",
-        1970,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "A Dog's Will",
-        2000,
-        "Guel Arraes"
-      ],
-      [
-        "Casino",
-        1995,
-        "Martin Scorsese"
-      ],
-      [
-        "Raging Bull",
-        1980,
-        "Martin Scorsese"
-      ],
-      [
-        "Aftersun",
-        2022,
-        "Charlotte Wells"
-      ],
-      [
-        "Rosemary's Baby",
-        1968,
-        "Roman Polanski"
-      ],
-      [
-        "A Silent Voice: The Movie",
-        2016,
-        "Naoko Yamada"
-      ],
-      [
-        "Sound of Metal",
-        2019,
-        "Darius Marder"
-      ],
-      [
-        "Persepolis",
-        2007,
-        "Marjane Satrapi, Vincent Paronnaud"
-      ],
-      [
-        "A Taxi Driver",
-        2017,
-        "Jang Hoon"
-      ],
-      [
-        "The Last Picture Show",
-        1971,
-        "Peter Bogdanovich"
-      ],
-      [
-        "Back to the Future",
-        1985,
-        "Robert Zemeckis"
-      ],
-      [
-        "Au Revoir les Enfants",
-        1987,
-        "Louis Malle"
-      ],
-      [
-        "Grand Illusion",
-        1937,
-        "Jean Renoir"
-      ],
-      [
-        "The Wild Robot",
-        2024,
-        "Chris Sanders"
-      ],
-      [
-        "The Kid",
-        1921,
-        "Charlie Chaplin"
-      ],
-      [
-        "The Sting",
-        1973,
-        "George Roy Hill"
-      ],
-      [
-        "Night Is Short, Walk On Girl",
-        2017,
-        "Masaaki Yuasa"
-      ],
-      [
-        "Good Morning",
-        1959,
-        "Yasujirō Ozu"
-      ],
-      [
-        "Comrades, Almost a Love Story",
-        1996,
-        "Peter Chan"
-      ],
-      [
-        "HAIKYU!! The Dumpster Battle",
-        2024,
-        "Susumu Mitsunaka"
-      ],
-      [
-        "Boogie Nights",
-        1997,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "In the Name of the Father",
-        1993,
-        "Jim Sheridan"
-      ],
-      [
-        "Unforgiven",
-        1992,
-        "Clint Eastwood"
-      ],
-      [
-        "Gangs of Wasseypur – Part 2",
-        2012,
-        "Anurag Kashyap"
-      ],
-      [
-        "The Taste of Tea",
-        2004,
-        "Katsuhito Ishii"
-      ],
-      [
-        "Better Days",
-        2019,
-        "Derek Tsang"
-      ],
-      [
-        "Drive My Car",
-        2021,
-        "Ryusuke Hamaguchi"
-      ],
-      [
-        "Love Streams",
-        1984,
-        "John Cassavetes"
-      ],
-      [
-        "Linda Linda Linda",
-        2005,
-        "Nobuhiro Yamashita"
-      ],
-      [
-        "RRR",
-        2022,
-        "S. S. Rajamouli"
-      ],
-      [
-        "PlayTime",
-        1967,
-        "Jacques Tati"
-      ],
-      [
-        "A Face in the Crowd",
-        1957,
-        "Elia Kazan"
-      ],
-      [
-        "Moonlight",
-        2016,
-        "Barry Jenkins"
-      ],
-      [
-        "The Conformist",
-        1970,
-        "Bernardo Bertolucci"
-      ],
-      [
-        "Rashomon",
-        1950,
-        "Akira Kurosawa"
-      ],
-      [
-        "Through the Olive Trees",
-        1994,
-        "Abbas Kiarostami"
-      ],
-      [
-        "Mind Game",
-        2004,
-        "Masaaki Yuasa"
-      ],
-      [
-        "Pixote",
-        1980,
-        "Héctor Babenco"
-      ],
-      [
-        "Joyland",
-        2022,
-        "Saim Sadiq"
-      ],
-      [
-        "Full Metal Jacket",
-        1987,
-        "Stanley Kubrick"
-      ],
-      [
-        "Dogville",
-        2003,
-        "Lars von Trier"
-      ],
-      [
-        "In a Lonely Place",
-        1950,
-        "Nicholas Ray"
-      ],
-      [
-        "My Neighbor Totoro",
-        1988,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Amélie",
-        2001,
-        "Jean-Pierre Jeunet"
-      ],
-      [
-        "The General",
-        1926,
-        "Buster Keaton, Clyde Bruckman"
-      ],
-      [
-        "The Grapes of Wrath",
-        1940,
-        "John Ford"
-      ],
-      [
-        "Nausicaä of the Valley of the Wind",
-        1984,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Ivan's Childhood",
-        1962,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "My Life as a Zucchini",
-        2016,
-        "Claude Barras"
-      ],
-      [
-        "Kumbalangi Nights",
-        2019,
-        "Madhu C. Narayanan"
-      ],
-      [
-        "The Return",
-        2003,
-        "Andrey Zvyagintsev"
-      ],
-      [
-        "Coraline",
-        2009,
-        "Henry Selick"
-      ],
-      [
-        "Hamnet",
-        2025,
-        "Chloé Zhao"
-      ],
-      [
-        "A Prophet",
-        2009,
-        "Jacques Audiard"
-      ],
-      [
-        "Roman Holiday",
-        1953,
-        "William Wyler"
-      ],
-      [
-        "Klaus",
-        2019,
-        "Sergio Pablos"
-      ],
-      [
-        "Diabolique",
-        1955,
-        "Henri-Georges Clouzot"
-      ],
-      [
-        "North by Northwest",
-        1959,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Céline and Julie Go Boating",
-        1974,
-        "Jacques Rivette"
-      ],
-      [
-        "The Cook, the Thief, His Wife & Her Lover",
-        1989,
-        "Peter Greenaway"
-      ],
-      [
-        "Day for Night",
-        1973,
-        "François Truffaut"
-      ],
-      [
-        "Hard Boiled",
-        1992,
-        "John Woo"
-      ],
-      [
-        "All About My Mother",
-        1999,
-        "Pedro Almodóvar"
-      ],
-      [
-        "The Straight Story",
-        1999,
-        "David Lynch"
-      ],
-      [
-        "What Ever Happened to Baby Jane?",
-        1962,
-        "Robert Aldrich"
-      ],
-      [
-        "The Long Goodbye",
-        1973,
-        "Robert Altman"
-      ],
-      [
-        "Stand by Me",
-        1986,
-        "Rob Reiner"
-      ],
-      [
-        "Princes and Princesses",
-        2000,
-        "Michel Ocelot"
-      ],
-      [
-        "Rio Bravo",
-        1959,
-        "Howard Hawks"
-      ],
-      [
-        "The Shop Around the Corner",
-        1940,
-        "Ernst Lubitsch"
-      ],
-      [
-        "Who Killed Captain Alex?",
-        2010,
-        "Nabwana IGG"
-      ],
-      [
-        "Whisper of the Heart",
-        1995,
-        "Yoshifumi Kondō"
-      ],
-      [
-        "Amores Perros",
-        2000,
-        "Alejandro González Iñárritu"
-      ],
-      [
-        "Threads",
-        1984,
-        "Mick Jackson"
-      ],
-      [
-        "Shutter Island",
-        2010,
-        "Martin Scorsese"
-      ],
-      [
-        "Like Father, Like Son",
-        2013,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "Citizen Kane",
-        1941,
-        "Orson Welles"
-      ],
-      [
-        "Gladiator",
-        2000,
-        "Ridley Scott"
-      ],
-      [
-        "The Fire Within",
-        1963,
-        "Louis Malle"
-      ],
-      [
-        "All the President's Men",
-        1976,
-        "Alan J. Pakula"
-      ],
-      [
-        "Spring, Summer, Fall, Winter... and Spring",
-        2003,
-        "Kim Ki-duk"
-      ],
-      [
-        "Little Women",
-        2019,
-        "Greta Gerwig"
-      ],
-      [
-        "La Strada",
-        1954,
-        "Federico Fellini"
-      ],
-      [
-        "Cléo from 5 to 7",
-        1962,
-        "Agnès Varda"
-      ],
-      [
-        "The Children's Hour",
-        1961,
-        "William Wyler"
-      ],
-      [
-        "Memento",
-        2000,
-        "Christopher Nolan"
-      ],
-      [
-        "Ernest & Celestine",
-        2012,
-        "Stéphane Aubier, Vincent Patar, Benjamin Renner"
-      ],
-      [
-        "All Quiet on the Western Front",
-        1930,
-        "Lewis Milestone"
-      ],
-      [
-        "Tokyo Sonata",
-        2008,
-        "Kiyoshi Kurosawa"
-      ],
-      [
-        "Sunrise: A Song of Two Humans",
-        1927,
-        "F. W. Murnau"
-      ],
-      [
-        "The Matrix",
-        1999,
-        "Lana Wachowski, Lilly Wachowski"
-      ],
-      [
-        "Güeros",
-        2014,
-        "Alonso Ruizpalacios"
-      ],
-      [
-        "Cabaret",
-        1972,
-        "Bob Fosse"
-      ],
-      [
-        "Forrest Gump",
-        1994,
-        "Robert Zemeckis"
-      ],
-      [
-        "Rome, Open City",
-        1945,
-        "Roberto Rossellini"
-      ],
-      [
-        "It Happened One Night",
-        1934,
-        "Frank Capra"
-      ],
-      [
-        "Vampire Hunter D: Bloodlust",
-        2000,
-        "Yoshiaki Kawajiri"
-      ],
-      [
-        "Once Upon a Time in Anatolia",
-        2011,
-        "Nuri Bilge Ceylan"
-      ],
-      [
-        "Ali: Fear Eats the Soul",
-        1974,
-        "Rainer Werner Fassbinder"
-      ],
-      [
-        "The Exterminating Angel",
-        1962,
-        "Luis Buñuel"
-      ],
-      [
-        "The Second Mother",
-        2015,
-        "Anna Muylaert"
-      ],
-      [
-        "Mother",
-        2009,
-        "Bong Joon-ho"
-      ],
-      [
-        "Butch Cassidy and the Sundance Kid",
-        1969,
-        "George Roy Hill"
-      ],
-      [
-        "Touch of Evil",
-        1958,
-        "Orson Welles"
-      ],
-      [
-        "Black Swan",
-        2010,
-        "Darren Aronofsky"
-      ],
-      [
-        "Memoir of a Snail",
-        2024,
-        "Adam Elliot"
-      ],
-      [
-        "Obsession",
-        2025,
-        "Trey Edward Shults"
-      ],
-      [
-        "Nashville",
-        1975,
-        "Robert Altman"
-      ],
-      [
-        "Carandiru",
-        2003,
-        "Héctor Babenco"
-      ],
-      [
-        "The Green Ray",
-        1986,
-        "Éric Rohmer"
-      ],
-      [
-        "Phantom Thread",
-        2017,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "My Night at Maud's",
-        1969,
-        "Éric Rohmer"
-      ],
-      [
-        "The Spirit of the Beehive",
-        1973,
-        "Víctor Erice"
-      ],
-      [
-        "Blue Giant",
-        2023,
-        "Yuzuru Tachikawa"
-      ],
-      [
-        "On the Waterfront",
-        1954,
-        "Elia Kazan"
-      ],
-      [
-        "12 Years a Slave",
-        2013,
-        "Steve McQueen"
-      ],
-      [
-        "Mad Max: Fury Road",
-        2015,
-        "George Miller"
-      ],
-      [
-        "All About Lily Chou-Chou",
-        2001,
-        "Shunji Iwai"
-      ],
-      [
-        "Lilya 4-ever",
-        2002,
-        "Lukas Moodysson"
-      ],
-      [
-        "The Great Escape",
-        1963,
-        "John Sturges"
-      ],
-      [
-        "After Life",
-        1998,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "Silenced",
-        2011,
-        "Hwang Dong-hyuk"
-      ],
-      [
-        "Short Term 12",
-        2013,
-        "Destin Daniel Cretton"
-      ],
-      [
-        "Cool Hand Luke",
-        1967,
-        "Stuart Rosenberg"
-      ],
-      [
-        "Alice in the Cities",
-        1974,
-        "Wim Wenders"
-      ],
-      [
-        "Through a Glass Darkly",
-        1961,
-        "Ingmar Bergman"
-      ],
-      [
-        "Fallen Angels",
-        1995,
-        "Wong Kar-wai"
-      ],
-      [
-        "Mulan",
-        1998,
-        "Tony Bancroft, Barry Cook"
-      ],
-      [
-        "Star Wars",
-        1977,
-        "George Lucas"
-      ],
-      [
-        "The Killer",
-        1989,
-        "John Woo"
-      ],
-      [
-        "Synecdoche, New York",
-        2008,
-        "Charlie Kaufman"
-      ],
-      [
-        "Oppenheimer",
-        2023,
-        "Christopher Nolan"
-      ],
-      [
-        "American History X",
-        1998,
-        "Tony Kaye"
-      ],
-      [
-        "The Virgin Spring",
-        1960,
-        "Ingmar Bergman"
-      ],
-      [
-        "Punishment Park",
-        1971,
-        "Peter Watkins"
-      ],
-      [
-        "Hiroshima Mon Amour",
-        1959,
-        "Alain Resnais"
-      ],
-      [
-        "Brokeback Mountain",
-        2005,
-        "Ang Lee"
-      ],
-      [
-        "Past Lives",
-        2023,
-        "Celine Song"
-      ],
-      [
-        "Pride",
-        2014,
-        "Matthew Warchus"
-      ],
-      [
-        "Eat Drink Man Woman",
-        1994,
-        "Ang Lee"
-      ],
-      [
-        "The Wolf House",
-        2018,
-        "Cristóbal León, Joaquín Cociña"
-      ],
-      [
-        "The Great Silence",
-        1968,
-        "Sergio Corbucci"
-      ],
-      [
-        "Society of the Snow",
-        2023,
-        "J. A. Bayona"
-      ],
-      [
-        "Sentimental Value",
-        2025,
-        "Joachim Trier"
-      ],
-      [
-        "The Intouchables",
-        2011,
-        "Olivier Nakache, Éric Toledano"
-      ],
-      [
-        "The Gold Rush",
-        1925,
-        "Charlie Chaplin"
-      ],
-      [
-        "Pan's Labyrinth",
-        2006,
-        "Guillermo del Toro"
-      ],
-      [
-        "Raiders of the Lost Ark",
-        1981,
-        "Steven Spielberg"
-      ],
-      [
-        "Dial M for Murder",
-        1954,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Mustang",
-        2015,
-        "Deniz Gamze Ergüven"
-      ],
-      [
-        "Three Colours: Blue",
-        1993,
-        "Krzysztof Kieślowski"
-      ],
-      [
-        "Midnight Cowboy",
-        1969,
-        "John Schlesinger"
-      ],
-      [
-        "Sanjuro",
-        1962,
-        "Akira Kurosawa"
-      ],
-      [
-        "3 Idiots",
-        2009,
-        "Rajkumar Hirani"
-      ],
-      [
-        "The Leopard",
-        1963,
-        "Luchino Visconti"
-      ],
-      [
-        "Nine Queens",
-        2000,
-        "Fabián Bielinsky"
-      ],
-      [
-        "Seconds",
-        1966,
-        "John Frankenheimer"
-      ],
-      [
-        "The Hidden Fortress",
-        1958,
-        "Akira Kurosawa"
-      ],
-      [
-        "3 Women",
-        1977,
-        "Robert Altman"
-      ],
-      [
-        "Pink Floyd: The Wall",
-        1982,
-        "Alan Parker"
-      ],
-      [
-        "Terrorizers",
-        1986,
-        "Edward Yang"
-      ],
-      [
-        "The Sword of Doom",
-        1966,
-        "Kihachi Okamoto"
-      ],
-      [
-        "The Conversation",
-        1974,
-        "Francis Ford Coppola"
-      ],
-      [
-        "Fargo",
-        1996,
-        "Joel Coen"
-      ],
-      [
-        "Kiki's Delivery Service",
-        1989,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Scarface",
-        1983,
-        "Brian De Palma"
-      ],
-      [
-        "I Dream in Another Language",
-        2017,
-        "Ernesto Contreras"
-      ],
-      [
-        "Monty Python and the Holy Grail",
-        1975,
-        "Terry Gilliam, Terry Jones"
-      ],
-      [
-        "There's Still Tomorrow",
-        2023,
-        "Paola Cortellesi"
-      ],
-      [
-        "My Father's Shadow",
-        2025,
-        "Akinola Davies Jr."
-      ],
-      [
-        "Breaking the Waves",
-        1996,
-        "Lars von Trier"
-      ],
-      [
-        "One Battle After Another",
-        2025,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "How to Train Your Dragon",
-        2010,
-        "Dean DeBlois, Chris Sanders"
-      ],
-      [
-        "One Sings, the Other Doesn't",
-        1977,
-        "Agnès Varda"
-      ],
-      [
-        "Phantom of the Paradise",
-        1974,
-        "Brian De Palma"
-      ],
-      [
-        "Harry Potter and the Prisoner of Azkaban",
-        2004,
-        "Alfonso Cuarón"
-      ],
-      [
-        "Wild Tales",
-        2014,
-        "Damián Szifron"
-      ],
-      [
-        "Pride & Prejudice",
-        2005,
-        "Joe Wright"
-      ],
-      [
-        "Rope",
-        1948,
-        "Alfred Hitchcock"
-      ],
-      [
-        "The Servant",
-        1963,
-        "Joseph Losey"
-      ],
-      [
-        "McCabe & Mrs. Miller",
-        1971,
-        "Robert Altman"
-      ],
-      [
-        "Faust",
-        1926,
-        "F. W. Murnau"
-      ],
-      [
-        "Le Bonheur",
-        1965,
-        "Agnès Varda"
-      ],
-      [
-        "The Umbrellas of Cherbourg",
-        1964,
-        "Jacques Demy"
-      ],
-      [
-        "Arrival",
-        2016,
-        "Denis Villeneuve"
-      ],
-      [
-        "Redline",
-        2009,
-        "Takeshi Koike"
-      ],
-      [
-        "Reservoir Dogs",
-        1992,
-        "Quentin Tarantino"
-      ],
-      [
-        "Souleymane's Story",
-        2024,
-        "Boris Lojkine"
-      ],
-      [
-        "Mr. Smith Goes to Washington",
-        1939,
-        "Frank Capra"
-      ],
-      [
-        "In Cold Blood",
-        1967,
-        "Richard Brooks"
-      ],
-      [
-        "Get Out",
-        2017,
-        "Jordan Peele"
-      ],
-      [
-        "12th Fail",
-        2023,
-        "Vidhu Vinod Chopra"
-      ],
-      [
-        "About Elly",
-        2009,
-        "Asghar Farhadi"
-      ],
-      [
-        "Short Cuts",
-        1993,
-        "Robert Altman"
-      ],
-      [
-        "Fitzcarraldo",
-        1982,
-        "Werner Herzog"
-      ],
-      [
-        "Love Letter",
-        1995,
-        "Shunji Iwai"
-      ]
+      ["Harakiri", 1962, "Masaki Kobayashi"],
+      ["The Human Condition III: A Soldier's Prayer", 1961, "Masaki Kobayashi"],
+      ["12 Angry Men", 1957, "Sidney Lumet"],
+      ["Come and See", 1985, "Elem Klimov"],
+      ["Seven Samurai", 1954, "Akira Kurosawa"],
+      ["High and Low", 1963, "Akira Kurosawa"],
+      ["The Shawshank Redemption", 1994, "Frank Darabont"],
+      ["The Godfather Part II", 1974, "Francis Ford Coppola"],
+      ["The Human Condition I: No Greater Love", 1959, "Masaki Kobayashi"],
+      ["City of God", 2002, "Fernando Meirelles, Kátia Lund"],
+      ["The Lord of the Rings: The Return of the King", 2003, "Peter Jackson"],
+      ["Schindler's List", 1993, "Steven Spielberg"],
+      ["Yi Yi", 2000, "Edward Yang"],
+      ["Parasite", 2019, "Bong Joon-ho"],
+      ["The Godfather", 1972, "Francis Ford Coppola"],
+      ["Ikiru", 1952, "Akira Kurosawa"],
+      ["Cinema Paradiso", 1988, "Giuseppe Tornatore"],
+      ["Ran", 1985, "Akira Kurosawa"],
+      ["Le Trou", 1960, "Jacques Becker"],
+      ["The Good, the Bad and the Ugly", 1966, "Sergio Leone"],
+      ["La Haine", 1995, "Mathieu Kassovitz"],
+      ["A Brighter Summer Day", 1991, "Edward Yang"],
+      ["Autumn Sonata", 1978, "Ingmar Bergman"],
+      ["The Human Condition II: Road to Eternity", 1959, "Masaki Kobayashi"],
+      ["The Dark Knight", 2008, "Christopher Nolan"],
+      ["Grave of the Fireflies", 1988, "Isao Takahata"],
+      ["Neon Genesis Evangelion: The End of Evangelion", 1997, "Hideaki Anno, Kazuya Tsurumaki"],
+      ["Woman in the Dunes", 1964, "Hiroshi Teshigahara"],
+      ["The Battle of Algiers", 1966, "Gillo Pontecorvo"],
+      ["There Will Be Blood", 2007, "Paul Thomas Anderson"],
+      ["I Am Cuba", 1964, "Mikhail Kalatozov"],
+      ["The Cranes Are Flying", 1957, "Mikhail Kalatozov"],
+      ["GoodFellas", 1990, "Martin Scorsese"],
+      ["Interstellar", 2014, "Christopher Nolan"],
+      ["Paths of Glory", 1957, "Stanley Kubrick"],
+      ["Incendies", 2010, "Denis Villeneuve"],
+      ["Spirited Away", 2001, "Hayao Miyazaki"],
+      ["Andrei Rublev", 1966, "Andrei Tarkovsky"],
+      ["It's a Wonderful Life", 1946, "Frank Capra"],
+      ["The Ascent", 1977, "Larisa Shepitko"],
+      ["Apocalypse Now", 1979, "Francis Ford Coppola"],
+      ["The Apartment", 1960, "Billy Wilder"],
+      ["Sunset Boulevard", 1950, "Billy Wilder"],
+      ["The Lord of the Rings: The Two Towers", 2002, "Peter Jackson"],
+      ["Tokyo Story", 1953, "Yasujirō Ozu"],
+      ["Sansho the Bailiff", 1954, "Kenji Mizoguchi"],
+      ["The Passion of Joan of Arc", 1928, "Carl Theodor Dreyer"],
+      ["Whiplash", 2014, "Damien Chazelle"],
+      ["Fanny and Alexander", 1982, "Ingmar Bergman"],
+      ["Mishima: A Life in Four Chapters", 1985, "Paul Schrader"],
+      ["Portrait of a Lady on Fire", 2019, "Céline Sciamma"],
+      ["Memories of Murder", 2003, "Bong Joon-ho"],
+      ["Red Beard", 1965, "Akira Kurosawa"],
+      ["Close-Up", 1990, "Abbas Kiarostami"],
+      ["Life Is Beautiful", 1997, "Roberto Benigni"],
+      ["The Red Shoes", 1948, "Michael Powell, Emeric Pressburger"],
+      ["Nobody Knows", 2004, "Hirokazu Kore-eda"],
+      ["Witness for the Prosecution", 1957, "Billy Wilder"],
+      ["Nights of Cabiria", 1957, "Federico Fellini"],
+      ["Barry Lyndon", 1975, "Stanley Kubrick"],
+      ["The Pianist", 2002, "Roman Polanski"],
+      ["Lawrence of Arabia", 1962, "David Lean"],
+      ["Farewell My Concubine", 1993, "Chen Kaige"],
+      ["Spider-Man: Across the Spider-Verse", 2023, "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson"],
+      ["The Empire Strikes Back", 1980, "Irvin Kershner"],
+      ["A Woman Under the Influence", 1974, "John Cassavetes"],
+      ["Do the Right Thing", 1989, "Spike Lee"],
+      ["Eternity and a Day", 1998, "Theo Angelopoulos"],
+      ["Stalker", 1979, "Andrei Tarkovsky"],
+      ["Spider-Man: Into the Spider-Verse", 2018, "Bob Persichetti, Peter Ramsey, Rodney Rothman"],
+      ["Satantango", 1994, "Béla Tarr"],
+      ["Princess Mononoke", 1997, "Hayao Miyazaki"],
+      ["Swing Girls", 2004, "Shinobu Yaguchi"],
+      ["The Handmaiden", 2016, "Park Chan-wook"],
+      ["The Voice of Hind Rajab", 2025, "Kaouther Ben Hania"],
+      ["Love Exposure", 2008, "Sion Sono"],
+      ["The Lord of the Rings: The Fellowship of the Ring", 2001, "Peter Jackson"],
+      ["Once Upon a Time in the West", 1968, "Sergio Leone"],
+      ["Paper Moon", 1973, "Peter Bogdanovich"],
+      ["An Elephant Sitting Still", 2018, "Hu Bo"],
+      ["Scenes from a Marriage", 1974, "Ingmar Bergman"],
+      ["Persona", 1966, "Ingmar Bergman"],
+      ["Perfect Blue", 1997, "Satoshi Kon"],
+      ["Good Will Hunting", 1997, "Gus Van Sant"],
+      ["Dune: Part Two", 2024, "Denis Villeneuve"],
+      ["Where Is the Friend's House?", 1987, "Abbas Kiarostami"],
+      ["In the Mood for Love", 2000, "Wong Kar-wai"],
+      ["Apur Sansar", 1959, "Satyajit Ray"],
+      ["A Separation", 2011, "Asghar Farhadi"],
+      ["Se7en", 1995, "David Fincher"],
+      ["Sherlock Jr.", 1924, "Buster Keaton"],
+      ["Z", 1969, "Costa-Gavras"],
+      ["One Flew Over the Cuckoo's Nest", 1975, "Miloš Forman"],
+      ["Paris, Texas", 1984, "Wim Wenders"],
+      ["Rear Window", 1954, "Alfred Hitchcock"],
+      ["Inglourious Basterds", 2009, "Quentin Tarantino"],
+      ["Oldboy", 2003, "Park Chan-wook"],
+      ["All About Eve", 1950, "Joseph L. Mankiewicz"],
+      ["The Wages of Fear", 1953, "Henri-Georges Clouzot"],
+      ["Landscape in the Mist", 1988, "Theo Angelopoulos"],
+      ["Army of Shadows", 1969, "Jean-Pierre Melville"],
+      ["Judgment at Nuremberg", 1961, "Stanley Kramer"],
+      ["Howl's Moving Castle", 2004, "Hayao Miyazaki"],
+      ["Central Station", 1998, "Walter Salles"],
+      ["Amadeus", 1984, "Miloš Forman"],
+      ["It's Such a Beautiful Day", 2012, "Don Hertzfeldt"],
+      ["Ordet", 1955, "Carl Theodor Dreyer"],
+      ["Chainsaw Man – The Movie: Reze Arc", 2025, "Tatsuya Yoshihara"],
+      ["The Thing", 1982, "John Carpenter"],
+      ["How to Make Millions Before Grandma Dies", 2024, "Pat Boonnitipat"],
+      ["A Man Escaped", 1956, "Robert Bresson"],
+      ["Dead Poets Society", 1989, "Peter Weir"],
+      ["Raise the Red Lantern", 1991, "Zhang Yimou"],
+      ["Singin' in the Rain", 1952, "Gene Kelly, Stanley Donen"],
+      ["A Special Day", 1977, "Ettore Scola"],
+      ["All That Jazz", 1979, "Bob Fosse"],
+      ["Still Walking", 2008, "Hirokazu Kore-eda"],
+      ["The Departed", 2006, "Martin Scorsese"],
+      ["I'm Still Here", 2024, "Walter Salles"],
+      ["Monster", 2023, "Hirokazu Kore-eda"],
+      ["To Be or Not to Be", 1942, "Ernst Lubitsch"],
+      ["The Silence of the Lambs", 1991, "Jonathan Demme"],
+      ["Three Colours: Red", 1994, "Krzysztof Kieślowski"],
+      ["Twin Peaks: Fire Walk with Me", 1992, "David Lynch"],
+      ["Late Spring", 1949, "Yasujirō Ozu"],
+      ["Django Unchained", 2012, "Quentin Tarantino"],
+      ["Prisoners", 2013, "Denis Villeneuve"],
+      ["Das Boot", 1981, "Wolfgang Petersen"],
+      ["Wild Strawberries", 1957, "Ingmar Bergman"],
+      ["Rocco and His Brothers", 1960, "Luchino Visconti"],
+      ["City Lights", 1931, "Charlie Chaplin"],
+      ["Funeral Parade of Roses", 1969, "Toshio Matsumoto"],
+      ["The Great Dictator", 1940, "Charlie Chaplin"],
+      ["The Seventh Seal", 1957, "Ingmar Bergman"],
+      ["Pather Panchali", 1955, "Satyajit Ray"],
+      ["Underground", 1995, "Emir Kusturica"],
+      ["Taste of Cherry", 1997, "Abbas Kiarostami"],
+      ["The Celebration", 1998, "Thomas Vinterberg"],
+      ["Brief Encounter", 1945, "David Lean"],
+      ["The Young Girls of Rochefort", 1967, "Jacques Demy"],
+      ["Mirror", 1975, "Andrei Tarkovsky"],
+      ["Mommy", 2014, "Xavier Dolan"],
+      ["Before Sunset", 2004, "Richard Linklater"],
+      ["Project Hail Mary", 2026, "Phil Lord, Christopher Miller"],
+      ["Perfect Days", 2023, "Wim Wenders"],
+      ["Tampopo", 1985, "Jūzō Itami"],
+      ["Psycho", 1960, "Alfred Hitchcock"],
+      ["No Country for Old Men", 2007, "Joel Coen, Ethan Coen"],
+      ["Werckmeister Harmonies", 2000, "Béla Tarr, Ágnes Hranitzky"],
+      ["Heat", 1995, "Michael Mann"],
+      ["Wings of Desire", 1987, "Wim Wenders"],
+      ["Puella Magi Madoka Magica the Movie Part III: Rebellion", 2013, "Akiyuki Shinbo, Yukihiro Miyamoto"],
+      ["Sing Sing", 2023, "Greg Kwedar"],
+      ["Dog Day Afternoon", 1975, "Sidney Lumet"],
+      ["Shoplifters", 2018, "Hirokazu Kore-eda"],
+      ["The Elephant Man", 1980, "David Lynch"],
+      ["The 400 Blows", 1959, "François Truffaut"],
+      ["Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 1964, "Stanley Kubrick"],
+      ["The Cremator", 1969, "Juraj Herz"],
+      ["Chinatown", 1974, "Roman Polanski"],
+      ["Dersu Uzala", 1975, "Akira Kurosawa"],
+      ["Children of Men", 2006, "Alfonso Cuarón"],
+      ["Fantastic Mr. Fox", 2009, "Wes Anderson"],
+      ["Before Sunrise", 1995, "Richard Linklater"],
+      ["Yojimbo", 1961, "Akira Kurosawa"],
+      ["The Treasure of the Sierra Madre", 1948, "John Huston"],
+      ["Children of Paradise", 1945, "Marcel Carné"],
+      ["Opening Night", 1977, "John Cassavetes"],
+      ["The Lives of Others", 2006, "Florian Henckel von Donnersmarck"],
+      ["Malcolm X", 1992, "Spike Lee"],
+      ["M", 1931, "Fritz Lang"],
+      ["We All Loved Each Other So Much", 1974, "Ettore Scola"],
+      ["The Sacrifice", 1986, "Andrei Tarkovsky"],
+      ["The Father", 2020, "Florian Zeller"],
+      ["Nirvanna the Band the Show the Movie", 2025, "Matt Johnson"],
+      ["Terminator 2: Judgment Day", 1991, "James Cameron"],
+      ["La Notte", 1961, "Michelangelo Antonioni"],
+      ["Fail Safe", 1964, "Sidney Lumet"],
+      ["Azur & Asmar: The Princes' Quest", 2006, "Michel Ocelot"],
+      ["Secrets & Lies", 1996, "Mike Leigh"],
+      ["The Man Who Shot Liberty Valance", 1962, "John Ford"],
+      ["Bicycle Thieves", 1948, "Vittorio De Sica"],
+      ["Evangelion: 3.0+1.0 Thrice Upon a Time", 2021, "Hideaki Anno, Kazuya Tsurumaki, Katsuichi Nakayama, Mahiro Maeda"],
+      ["The Green Mile", 1999, "Frank Darabont"],
+      ["The Prestige", 2006, "Christopher Nolan"],
+      ["The Hunt", 2012, "Thomas Vinterberg"],
+      ["Nostalgia", 1983, "Andrei Tarkovsky"],
+      ["Life, and Nothing More…", 1992, "Abbas Kiarostami"],
+      ["The Iron Giant", 1999, "Brad Bird"],
+      ["Akira", 1988, "Katsuhiro Otomo"],
+      ["Song of the Sea", 2014, "Tomm Moore"],
+      ["Casablanca", 1942, "Michael Curtiz"],
+      ["Ace in the Hole", 1951, "Billy Wilder"],
+      ["Cure", 1997, "Kiyoshi Kurosawa"],
+      ["Chungking Express", 1994, "Wong Kar-wai"],
+      ["Some Like It Hot", 1959, "Billy Wilder"],
+      ["Ritual", 2000, "Hideaki Anno"],
+      ["Look Back", 2024, "Kiyotaka Oshiyama"],
+      ["8½", 1963, "Federico Fellini"],
+      ["Interstella 5555: The 5tory of the 5ecret 5tar 5ystem", 2003, "Kazuhisa Takenouchi"],
+      ["Fight Club", 1999, "David Fincher"],
+      ["Throne of Blood", 1957, "Akira Kurosawa"],
+      ["Who's Afraid of Virginia Woolf?", 1966, "Mike Nichols"],
+      ["Sorcerer", 1977, "William Friedkin"],
+      ["La Dolce Vita", 1960, "Federico Fellini"],
+      ["Rififi", 1955, "Jules Dassin"],
+      ["Aparajito", 1956, "Satyajit Ray"],
+      ["Mary and Max", 2009, "Adam Elliot"],
+      ["A Matter of Life and Death", 1946, "Michael Powell, Emeric Pressburger"],
+      ["Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles", 1975, "Chantal Akerman"],
+      ["Ugetsu", 1953, "Kenji Mizoguchi"],
+      ["Network", 1976, "Sidney Lumet"],
+      ["The Tale of The Princess Kaguya", 2013, "Isao Takahata"],
+      ["Mulholland Drive", 2001, "David Lynch"],
+      ["Il Sorpasso", 1962, "Dino Risi"],
+      ["Umberto D.", 1952, "Vittorio De Sica"],
+      ["Modern Times", 1936, "Charlie Chaplin"],
+      ["The Night of the Hunter", 1955, "Charles Laughton"],
+      ["The Face of Another", 1966, "Hiroshi Teshigahara"],
+      ["The Fall", 2006, "Tarsem Singh"],
+      ["Double Indemnity", 1944, "Billy Wilder"],
+      ["Saving Private Ryan", 1998, "Steven Spielberg"],
+      ["The Holdovers", 2023, "Alexander Payne"],
+      ["I Swear", 2025, "Kirk Jones"],
+      ["A Moment of Innocence", 1996, "Mohsen Makhmalbaf"],
+      ["Kes", 1969, "Ken Loach"],
+      ["Winter Light", 1963, "Ingmar Bergman"],
+      ["The First Slam Dunk", 2022, "Takehiko Inoue"],
+      ["Tokyo Godfathers", 2003, "Satoshi Kon"],
+      ["4 Months, 3 Weeks and 2 Days", 2007, "Cristian Mungiu"],
+      ["The Best Years of Our Lives", 1946, "William Wyler"],
+      ["Alien", 1979, "Ridley Scott"],
+      ["The Sound of Music", 1965, "Robert Wise"],
+      ["Macario", 1960, "Roberto Gavaldón"],
+      ["The Bridge on the River Kwai", 1957, "David Lean"],
+      ["Quo Vadis, Aida?", 2020, "Jasmila Žbanić"],
+      ["Son of the White Mare", 1981, "Marcell Jankovics"],
+      ["2001: A Space Odyssey", 1968, "Stanley Kubrick"],
+      ["Anatomy of a Murder", 1959, "Otto Preminger"],
+      ["Everything Everywhere All at Once", 2022, "Daniel Kwan, Daniel Scheinert"],
+      ["Metropolis", 1927, "Fritz Lang"],
+      ["Marcel the Shell with Shoes On", 2021, "Dean Fleischer Camp"],
+      ["The Secret in Their Eyes", 2009, "Juan José Campanella"],
+      ["Kwaidan", 1964, "Masaki Kobayashi"],
+      ["The Grand Budapest Hotel", 2014, "Wes Anderson"],
+      ["Kamikaze Girls", 2004, "Tetsuya Nakashima"],
+      ["Vada Chennai", 2018, "Vetrimaaran"],
+      ["Eternal Sunshine of the Spotless Mind", 2004, "Michel Gondry"],
+      ["WALL·E", 2008, "Andrew Stanton"],
+      ["Sweet Smell of Success", 1957, "Alexander Mackendrick"],
+      ["Time of the Gypsies", 1988, "Emir Kusturica"],
+      ["For a Few Dollars More", 1965, "Sergio Leone"],
+      ["Poetry", 2010, "Lee Chang-dong"],
+      ["The Third Man", 1949, "Carol Reed"],
+      ["An Autumn Afternoon", 1962, "Yasujirō Ozu"],
+      ["Pulp Fiction", 1994, "Quentin Tarantino"],
+      ["The Lovers on the Bridge", 1991, "Leos Carax"],
+      ["Dreams", 1990, "Akira Kurosawa"],
+      ["The Life and Death of Colonel Blimp", 1943, "Michael Powell, Emeric Pressburger"],
+      ["The King of Comedy", 1982, "Martin Scorsese"],
+      ["To Live", 1994, "Zhang Yimou"],
+      ["Kagemusha", 1980, "Akira Kurosawa"],
+      ["Millennium Actress", 2001, "Satoshi Kon"],
+      ["Amour", 2012, "Michael Haneke"],
+      ["Wolfwalkers", 2020, "Tomm Moore, Ross Stewart"],
+      ["Inception", 2010, "Christopher Nolan"],
+      ["Ratatouille", 2007, "Brad Bird"],
+      ["The Devils", 1971, "Ken Russell"],
+      ["Your Name.", 2016, "Makoto Shinkai"],
+      ["Embrace of the Serpent", 2015, "Ciro Guerra"],
+      ["The Turin Horse", 2011, "Béla Tarr, Ágnes Hranitzky"],
+      ["Trainspotting", 1996, "Danny Boyle"],
+      ["The Lion King", 1994, "Roger Allers, Rob Minkoff"],
+      ["Once Upon a Time in America", 1984, "Sergio Leone"],
+      ["Magnolia", 1999, "Paul Thomas Anderson"],
+      ["The White Ribbon", 2009, "Michael Haneke"],
+      ["Fireworks", 1997, "Takeshi Kitano"],
+      ["Solaris", 1972, "Andrei Tarkovsky"],
+      ["The Truman Show", 1998, "Peter Weir"],
+      ["Dancer in the Dark", 2000, "Lars von Trier"],
+      ["Shame", 1968, "Ingmar Bergman"],
+      ["Vertigo", 1958, "Alfred Hitchcock"],
+      ["Thelma & Louise", 1991, "Ridley Scott"],
+      ["The Shining", 1980, "Stanley Kubrick"],
+      ["The Young and the Damned", 1950, "Luis Buñuel"],
+      ["They Shoot Horses, Don't They?", 1969, "Sydney Pollack"],
+      ["Capernaum", 2018, "Nadine Labaki"],
+      ["Joint Security Area", 2000, "Park Chan-wook"],
+      ["Children of Heaven", 1997, "Majid Majidi"],
+      ["Le Samouraï", 1967, "Jean-Pierre Melville"],
+      ["The Man Who Sleeps", 1974, "Bernard Queysanne"],
+      ["Cria!", 1976, "Carlos Saura"],
+      ["Kill Bill: Vol. 1", 2003, "Quentin Tarantino"],
+      ["Investigation of a Citizen Above Suspicion", 1970, "Elio Petri"],
+      ["The Deer Hunter", 1978, "Michael Cimino"],
+      ["Winter Sleep", 2014, "Nuri Bilge Ceylan"],
+      ["Little Miss Sunshine", 2006, "Jonathan Dayton, Valerie Faris"],
+      ["Hope", 2013, "Lee Joon-ik"],
+      ["Y Tu Mamá También", 2001, "Alfonso Cuarón"],
+      ["Mysterious Skin", 2004, "Gregg Araki"],
+      ["Happy Together", 1997, "Wong Kar-wai"],
+      ["Cries and Whispers", 1972, "Ingmar Bergman"],
+      ["Meiyazhagan", 2024, "C. Prem Kumar"],
+      ["Le Cercle Rouge", 1970, "Jean-Pierre Melville"],
+      ["A Dog's Will", 2000, "Guel Arraes"],
+      ["Casino", 1995, "Martin Scorsese"],
+      ["Raging Bull", 1980, "Martin Scorsese"],
+      ["Aftersun", 2022, "Charlotte Wells"],
+      ["Rosemary's Baby", 1968, "Roman Polanski"],
+      ["A Silent Voice: The Movie", 2016, "Naoko Yamada"],
+      ["Sound of Metal", 2019, "Darius Marder"],
+      ["Persepolis", 2007, "Marjane Satrapi, Vincent Paronnaud"],
+      ["A Taxi Driver", 2017, "Jang Hoon"],
+      ["The Last Picture Show", 1971, "Peter Bogdanovich"],
+      ["Back to the Future", 1985, "Robert Zemeckis"],
+      ["Au Revoir les Enfants", 1987, "Louis Malle"],
+      ["Grand Illusion", 1937, "Jean Renoir"],
+      ["The Wild Robot", 2024, "Chris Sanders"],
+      ["The Kid", 1921, "Charlie Chaplin"],
+      ["The Sting", 1973, "George Roy Hill"],
+      ["Night Is Short, Walk On Girl", 2017, "Masaaki Yuasa"],
+      ["Good Morning", 1959, "Yasujirō Ozu"],
+      ["Comrades, Almost a Love Story", 1996, "Peter Chan"],
+      ["HAIKYU!! The Dumpster Battle", 2024, "Susumu Mitsunaka"],
+      ["Boogie Nights", 1997, "Paul Thomas Anderson"],
+      ["In the Name of the Father", 1993, "Jim Sheridan"],
+      ["Unforgiven", 1992, "Clint Eastwood"],
+      ["Gangs of Wasseypur – Part 2", 2012, "Anurag Kashyap"],
+      ["The Taste of Tea", 2004, "Katsuhito Ishii"],
+      ["Better Days", 2019, "Derek Tsang"],
+      ["Drive My Car", 2021, "Ryusuke Hamaguchi"],
+      ["Love Streams", 1984, "John Cassavetes"],
+      ["Linda Linda Linda", 2005, "Nobuhiro Yamashita"],
+      ["RRR", 2022, "S. S. Rajamouli"],
+      ["PlayTime", 1967, "Jacques Tati"],
+      ["A Face in the Crowd", 1957, "Elia Kazan"],
+      ["Moonlight", 2016, "Barry Jenkins"],
+      ["The Conformist", 1970, "Bernardo Bertolucci"],
+      ["Rashomon", 1950, "Akira Kurosawa"],
+      ["Through the Olive Trees", 1994, "Abbas Kiarostami"],
+      ["Mind Game", 2004, "Masaaki Yuasa"],
+      ["Pixote", 1980, "Héctor Babenco"],
+      ["Joyland", 2022, "Saim Sadiq"],
+      ["Full Metal Jacket", 1987, "Stanley Kubrick"],
+      ["Dogville", 2003, "Lars von Trier"],
+      ["In a Lonely Place", 1950, "Nicholas Ray"],
+      ["My Neighbor Totoro", 1988, "Hayao Miyazaki"],
+      ["Amélie", 2001, "Jean-Pierre Jeunet"],
+      ["The General", 1926, "Buster Keaton, Clyde Bruckman"],
+      ["The Grapes of Wrath", 1940, "John Ford"],
+      ["Nausicaä of the Valley of the Wind", 1984, "Hayao Miyazaki"],
+      ["Ivan's Childhood", 1962, "Andrei Tarkovsky"],
+      ["My Life as a Zucchini", 2016, "Claude Barras"],
+      ["Kumbalangi Nights", 2019, "Madhu C. Narayanan"],
+      ["The Return", 2003, "Andrey Zvyagintsev"],
+      ["Coraline", 2009, "Henry Selick"],
+      ["Hamnet", 2025, "Chloé Zhao"],
+      ["A Prophet", 2009, "Jacques Audiard"],
+      ["Roman Holiday", 1953, "William Wyler"],
+      ["Klaus", 2019, "Sergio Pablos"],
+      ["Diabolique", 1955, "Henri-Georges Clouzot"],
+      ["North by Northwest", 1959, "Alfred Hitchcock"],
+      ["Céline and Julie Go Boating", 1974, "Jacques Rivette"],
+      ["The Cook, the Thief, His Wife & Her Lover", 1989, "Peter Greenaway"],
+      ["Day for Night", 1973, "François Truffaut"],
+      ["Hard Boiled", 1992, "John Woo"],
+      ["All About My Mother", 1999, "Pedro Almodóvar"],
+      ["The Straight Story", 1999, "David Lynch"],
+      ["What Ever Happened to Baby Jane?", 1962, "Robert Aldrich"],
+      ["The Long Goodbye", 1973, "Robert Altman"],
+      ["Stand by Me", 1986, "Rob Reiner"],
+      ["Princes and Princesses", 2000, "Michel Ocelot"],
+      ["Rio Bravo", 1959, "Howard Hawks"],
+      ["The Shop Around the Corner", 1940, "Ernst Lubitsch"],
+      ["Who Killed Captain Alex?", 2010, "Nabwana IGG"],
+      ["Whisper of the Heart", 1995, "Yoshifumi Kondō"],
+      ["Amores Perros", 2000, "Alejandro González Iñárritu"],
+      ["Threads", 1984, "Mick Jackson"],
+      ["Shutter Island", 2010, "Martin Scorsese"],
+      ["Like Father, Like Son", 2013, "Hirokazu Kore-eda"],
+      ["Citizen Kane", 1941, "Orson Welles"],
+      ["Gladiator", 2000, "Ridley Scott"],
+      ["The Fire Within", 1963, "Louis Malle"],
+      ["All the President's Men", 1976, "Alan J. Pakula"],
+      ["Spring, Summer, Fall, Winter... and Spring", 2003, "Kim Ki-duk"],
+      ["Little Women", 2019, "Greta Gerwig"],
+      ["La Strada", 1954, "Federico Fellini"],
+      ["Cléo from 5 to 7", 1962, "Agnès Varda"],
+      ["The Children's Hour", 1961, "William Wyler"],
+      ["Memento", 2000, "Christopher Nolan"],
+      ["Ernest & Celestine", 2012, "Stéphane Aubier, Vincent Patar, Benjamin Renner"],
+      ["All Quiet on the Western Front", 1930, "Lewis Milestone"],
+      ["Tokyo Sonata", 2008, "Kiyoshi Kurosawa"],
+      ["Sunrise: A Song of Two Humans", 1927, "F. W. Murnau"],
+      ["The Matrix", 1999, "Lana Wachowski, Lilly Wachowski"],
+      ["Güeros", 2014, "Alonso Ruizpalacios"],
+      ["Cabaret", 1972, "Bob Fosse"],
+      ["Forrest Gump", 1994, "Robert Zemeckis"],
+      ["Rome, Open City", 1945, "Roberto Rossellini"],
+      ["It Happened One Night", 1934, "Frank Capra"],
+      ["Vampire Hunter D: Bloodlust", 2000, "Yoshiaki Kawajiri"],
+      ["Once Upon a Time in Anatolia", 2011, "Nuri Bilge Ceylan"],
+      ["Ali: Fear Eats the Soul", 1974, "Rainer Werner Fassbinder"],
+      ["The Exterminating Angel", 1962, "Luis Buñuel"],
+      ["The Second Mother", 2015, "Anna Muylaert"],
+      ["Mother", 2009, "Bong Joon-ho"],
+      ["Butch Cassidy and the Sundance Kid", 1969, "George Roy Hill"],
+      ["Touch of Evil", 1958, "Orson Welles"],
+      ["Black Swan", 2010, "Darren Aronofsky"],
+      ["Memoir of a Snail", 2024, "Adam Elliot"],
+      ["Obsession", 2025, "Trey Edward Shults"],
+      ["Nashville", 1975, "Robert Altman"],
+      ["Carandiru", 2003, "Héctor Babenco"],
+      ["The Green Ray", 1986, "Éric Rohmer"],
+      ["Phantom Thread", 2017, "Paul Thomas Anderson"],
+      ["My Night at Maud's", 1969, "Éric Rohmer"],
+      ["The Spirit of the Beehive", 1973, "Víctor Erice"],
+      ["Blue Giant", 2023, "Yuzuru Tachikawa"],
+      ["On the Waterfront", 1954, "Elia Kazan"],
+      ["12 Years a Slave", 2013, "Steve McQueen"],
+      ["Mad Max: Fury Road", 2015, "George Miller"],
+      ["All About Lily Chou-Chou", 2001, "Shunji Iwai"],
+      ["Lilya 4-ever", 2002, "Lukas Moodysson"],
+      ["The Great Escape", 1963, "John Sturges"],
+      ["After Life", 1998, "Hirokazu Kore-eda"],
+      ["Silenced", 2011, "Hwang Dong-hyuk"],
+      ["Short Term 12", 2013, "Destin Daniel Cretton"],
+      ["Cool Hand Luke", 1967, "Stuart Rosenberg"],
+      ["Alice in the Cities", 1974, "Wim Wenders"],
+      ["Through a Glass Darkly", 1961, "Ingmar Bergman"],
+      ["Fallen Angels", 1995, "Wong Kar-wai"],
+      ["Mulan", 1998, "Tony Bancroft, Barry Cook"],
+      ["Star Wars", 1977, "George Lucas"],
+      ["The Killer", 1989, "John Woo"],
+      ["Synecdoche, New York", 2008, "Charlie Kaufman"],
+      ["Oppenheimer", 2023, "Christopher Nolan"],
+      ["American History X", 1998, "Tony Kaye"],
+      ["The Virgin Spring", 1960, "Ingmar Bergman"],
+      ["Punishment Park", 1971, "Peter Watkins"],
+      ["Hiroshima Mon Amour", 1959, "Alain Resnais"],
+      ["Brokeback Mountain", 2005, "Ang Lee"],
+      ["Past Lives", 2023, "Celine Song"],
+      ["Pride", 2014, "Matthew Warchus"],
+      ["Eat Drink Man Woman", 1994, "Ang Lee"],
+      ["The Wolf House", 2018, "Cristóbal León, Joaquín Cociña"],
+      ["The Great Silence", 1968, "Sergio Corbucci"],
+      ["Society of the Snow", 2023, "J. A. Bayona"],
+      ["Sentimental Value", 2025, "Joachim Trier"],
+      ["The Intouchables", 2011, "Olivier Nakache, Éric Toledano"],
+      ["The Gold Rush", 1925, "Charlie Chaplin"],
+      ["Pan's Labyrinth", 2006, "Guillermo del Toro"],
+      ["Raiders of the Lost Ark", 1981, "Steven Spielberg"],
+      ["Dial M for Murder", 1954, "Alfred Hitchcock"],
+      ["Mustang", 2015, "Deniz Gamze Ergüven"],
+      ["Three Colours: Blue", 1993, "Krzysztof Kieślowski"],
+      ["Midnight Cowboy", 1969, "John Schlesinger"],
+      ["Sanjuro", 1962, "Akira Kurosawa"],
+      ["3 Idiots", 2009, "Rajkumar Hirani"],
+      ["The Leopard", 1963, "Luchino Visconti"],
+      ["Nine Queens", 2000, "Fabián Bielinsky"],
+      ["Seconds", 1966, "John Frankenheimer"],
+      ["The Hidden Fortress", 1958, "Akira Kurosawa"],
+      ["3 Women", 1977, "Robert Altman"],
+      ["Pink Floyd: The Wall", 1982, "Alan Parker"],
+      ["Terrorizers", 1986, "Edward Yang"],
+      ["The Sword of Doom", 1966, "Kihachi Okamoto"],
+      ["The Conversation", 1974, "Francis Ford Coppola"],
+      ["Fargo", 1996, "Joel Coen"],
+      ["Kiki's Delivery Service", 1989, "Hayao Miyazaki"],
+      ["Scarface", 1983, "Brian De Palma"],
+      ["I Dream in Another Language", 2017, "Ernesto Contreras"],
+      ["Monty Python and the Holy Grail", 1975, "Terry Gilliam, Terry Jones"],
+      ["There's Still Tomorrow", 2023, "Paola Cortellesi"],
+      ["My Father's Shadow", 2025, "Akinola Davies Jr."],
+      ["Breaking the Waves", 1996, "Lars von Trier"],
+      ["One Battle After Another", 2025, "Paul Thomas Anderson"],
+      ["How to Train Your Dragon", 2010, "Dean DeBlois, Chris Sanders"],
+      ["One Sings, the Other Doesn't", 1977, "Agnès Varda"],
+      ["Phantom of the Paradise", 1974, "Brian De Palma"],
+      ["Harry Potter and the Prisoner of Azkaban", 2004, "Alfonso Cuarón"],
+      ["Wild Tales", 2014, "Damián Szifron"],
+      ["Pride & Prejudice", 2005, "Joe Wright"],
+      ["Rope", 1948, "Alfred Hitchcock"],
+      ["The Servant", 1963, "Joseph Losey"],
+      ["McCabe & Mrs. Miller", 1971, "Robert Altman"],
+      ["Faust", 1926, "F. W. Murnau"],
+      ["Le Bonheur", 1965, "Agnès Varda"],
+      ["The Umbrellas of Cherbourg", 1964, "Jacques Demy"],
+      ["Arrival", 2016, "Denis Villeneuve"],
+      ["Redline", 2009, "Takeshi Koike"],
+      ["Reservoir Dogs", 1992, "Quentin Tarantino"],
+      ["Souleymane's Story", 2024, "Boris Lojkine"],
+      ["Mr. Smith Goes to Washington", 1939, "Frank Capra"],
+      ["In Cold Blood", 1967, "Richard Brooks"],
+      ["Get Out", 2017, "Jordan Peele"],
+      ["12th Fail", 2023, "Vidhu Vinod Chopra"],
+      ["About Elly", 2009, "Asghar Farhadi"],
+      ["Short Cuts", 1993, "Robert Altman"],
+      ["Fitzcarraldo", 1982, "Werner Herzog"],
+      ["Love Letter", 1995, "Shunji Iwai"]
     ]
   },
   "personal": {
     "label": "Hartmuts Auswahl",
     "films": [
-      [
-        "The Great Dictator",
-        1940,
-        "Charlie Chaplin"
-      ],
-      [
-        "Memento",
-        2000,
-        "Christopher Nolan"
-      ],
-      [
-        "All Quiet on the Western Front",
-        1930,
-        "Lewis Milestone"
-      ],
-      [
-        "There Will Be Blood",
-        2007,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "Heat",
-        1995,
-        "Michael Mann"
-      ],
-      [
-        "Network",
-        1976,
-        "Sidney Lumet"
-      ],
-      [
-        "Django Unchained",
-        2012,
-        "Quentin Tarantino"
-      ],
-      [
-        "Kill Bill: Vol. 1",
-        2003,
-        "Quentin Tarantino"
-      ],
-      [
-        "Fight Club",
-        1999,
-        "David Fincher"
-      ],
-      [
-        "The Thing",
-        1982,
-        "John Carpenter"
-      ],
-      [
-        "Alien",
-        1979,
-        "Ridley Scott"
-      ],
-      [
-        "GoodFellas",
-        1990,
-        "Martin Scorsese"
-      ],
-      [
-        "Scarface",
-        1983,
-        "Brian De Palma"
-      ],
-      [
-        "Rope",
-        1948,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Get Out",
-        2017,
-        "Jordan Peele"
-      ],
-      [
-        "Double Indemnity",
-        1944,
-        "Billy Wilder"
-      ],
-      [
-        "The Good, the Bad and the Ugly",
-        1966,
-        "Sergio Leone"
-      ],
-      [
-        "Sorcerer",
-        1977,
-        "William Friedkin"
-      ],
-      [
-        "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-        1964,
-        "Stanley Kubrick"
-      ],
-      [
-        "The Prestige",
-        2006,
-        "Christopher Nolan"
-      ],
-      [
-        "Diabolique",
-        1955,
-        "Henri-Georges Clouzot"
-      ],
-      [
-        "The Night of the Hunter",
-        1955,
-        "Charles Laughton"
-      ],
-      [
-        "The Shining",
-        1980,
-        "Stanley Kubrick"
-      ],
-      [
-        "Shutter Island",
-        2010,
-        "Martin Scorsese"
-      ],
-      [
-        "The Third Man",
-        1949,
-        "Carol Reed"
-      ],
-      [
-        "No Country for Old Men",
-        2007,
-        "Joel Coen, Ethan Coen"
-      ],
-      [
-        "For a Few Dollars More",
-        1965,
-        "Sergio Leone"
-      ],
-      [
-        "Touch of Evil",
-        1958,
-        "Orson Welles"
-      ],
-      [
-        "The Conversation",
-        1974,
-        "Francis Ford Coppola"
-      ],
-      [
-        "Dog Day Afternoon",
-        1975,
-        "Sidney Lumet"
-      ],
-      [
-        "Who's Afraid of Virginia Woolf?",
-        1966,
-        "Mike Nichols"
-      ],
-      [
-        "2001: A Space Odyssey",
-        1968,
-        "Stanley Kubrick"
-      ],
-      [
-        "Barry Lyndon",
-        1975,
-        "Stanley Kubrick"
-      ],
-      [
-        "The Leopard",
-        1963,
-        "Luchino Visconti"
-      ],
-      [
-        "Apocalypse Now",
-        1979,
-        "Francis Ford Coppola"
-      ],
-      [
-        "One Battle After Another",
-        2025,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "The Cook, the Thief, His Wife & Her Lover",
-        1989,
-        "Peter Greenaway"
-      ],
-      [
-        "Inception",
-        2010,
-        "Christopher Nolan"
-      ],
-      [
-        "Psycho",
-        1960,
-        "Alfred Hitchcock"
-      ],
-      [
-        "City of God",
-        2002,
-        "Fernando Meirelles, Kátia Lund"
-      ],
-      [
-        "North by Northwest",
-        1959,
-        "Alfred Hitchcock"
-      ],
-      [
-        "La Haine",
-        1995,
-        "Mathieu Kassovitz"
-      ],
-      [
-        "The Wages of Fear",
-        1953,
-        "Henri-Georges Clouzot"
-      ],
-      [
-        "Boogie Nights",
-        1997,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "Children of Men",
-        2006,
-        "Alfonso Cuarón"
-      ],
-      [
-        "Le Cercle Rouge",
-        1970,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "The Matrix",
-        1999,
-        "Lana Wachowski, Lilly Wachowski"
-      ],
-      [
-        "Fargo",
-        1996,
-        "Joel Coen"
-      ],
-      [
-        "The Lost Weekend",
-        1945,
-        "Billy Wilder"
-      ],
-      [
-        "The King of Comedy",
-        1982,
-        "Martin Scorsese"
-      ],
-      [
-        "The White Ribbon",
-        2009,
-        "Michael Haneke"
-      ],
-      [
-        "Rome, Open City",
-        1945,
-        "Roberto Rossellini"
-      ],
-      [
-        "Raging Bull",
-        1980,
-        "Martin Scorsese"
-      ],
-      [
-        "The Departed",
-        2006,
-        "Martin Scorsese"
-      ],
-      [
-        "The Deer Hunter",
-        1978,
-        "Michael Cimino"
-      ],
-      [
-        "Incendies",
-        2010,
-        "Denis Villeneuve"
-      ],
-      [
-        "Lawrence of Arabia",
-        1962,
-        "David Lean"
-      ],
-      [
-        "One Flew Over the Cuckoo's Nest",
-        1975,
-        "Miloš Forman"
-      ],
-      [
-        "Das Boot",
-        1981,
-        "Wolfgang Petersen"
-      ],
-      [
-        "Malcolm X",
-        1992,
-        "Spike Lee"
-      ],
-      [
-        "It Happened One Night",
-        1934,
-        "Frank Capra"
-      ],
-      [
-        "The Lives of Others",
-        2006,
-        "Florian Henckel von Donnersmarck"
-      ],
-      [
-        "Arrival",
-        2016,
-        "Denis Villeneuve"
-      ],
-      [
-        "The Apartment",
-        1960,
-        "Billy Wilder"
-      ],
-      [
-        "Casablanca",
-        1942,
-        "Michael Curtiz"
-      ],
-      [
-        "Paths of Glory",
-        1957,
-        "Stanley Kubrick"
-      ],
-      [
-        "All the President's Men",
-        1976,
-        "Alan J. Pakula"
-      ],
-      [
-        "Pulp Fiction",
-        1994,
-        "Quentin Tarantino"
-      ],
-      [
-        "Ali: Fear Eats the Soul",
-        1974,
-        "Rainer Werner Fassbinder"
-      ],
-      [
-        "In Cold Blood",
-        1967,
-        "Richard Brooks"
-      ],
-      [
-        "The Battle of Algiers",
-        1966,
-        "Gillo Pontecorvo"
-      ],
-      [
-        "Ace in the Hole",
-        1951,
-        "Billy Wilder"
-      ],
-      [
-        "Mulholland Drive",
-        2001,
-        "David Lynch"
-      ],
-      [
-        "Sunrise: A Song of Two Humans",
-        1927,
-        "F. W. Murnau"
-      ],
-      [
-        "M",
-        1931,
-        "Fritz Lang"
-      ],
-      [
-        "Parasite",
-        2019,
-        "Bong Joon-ho"
-      ],
-      [
-        "Le Samouraï",
-        1967,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "Pink Floyd: The Wall",
-        1982,
-        "Alan Parker"
-      ],
-      [
-        "Vertigo",
-        1958,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Z",
-        1969,
-        "Costa-Gavras"
-      ],
-      [
-        "Once Upon a Time in America",
-        1984,
-        "Sergio Leone"
-      ],
-      [
-        "Army of Shadows",
-        1969,
-        "Jean-Pierre Melville"
-      ],
-      [
-        "Interstellar",
-        2014,
-        "Christopher Nolan"
-      ],
-      [
-        "PlayTime",
-        1967,
-        "Jacques Tati"
-      ],
-      [
-        "Rear Window",
-        1954,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Bicycle Thieves",
-        1948,
-        "Vittorio De Sica"
-      ],
-      [
-        "Sunset Boulevard",
-        1950,
-        "Billy Wilder"
-      ],
-      [
-        "Casino",
-        1995,
-        "Martin Scorsese"
-      ],
-      [
-        "Investigation of a Citizen Above Suspicion",
-        1970,
-        "Elio Petri"
-      ],
-      [
-        "Black Swan",
-        2010,
-        "Darren Aronofsky"
-      ],
-      [
-        "Shoplifters",
-        2018,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "Modern Times",
-        1936,
-        "Charlie Chaplin"
-      ],
-      [
-        "Once Upon a Time in the West",
-        1968,
-        "Sergio Leone"
-      ],
-      [
-        "City Lights",
-        1931,
-        "Charlie Chaplin"
-      ],
-      [
-        "Inglourious Basterds",
-        2009,
-        "Quentin Tarantino"
-      ],
-      [
-        "Chinatown",
-        1974,
-        "Roman Polanski"
-      ],
-      [
-        "Trainspotting",
-        1996,
-        "Danny Boyle"
-      ],
-      [
-        "The Dark Knight",
-        2008,
-        "Christopher Nolan"
-      ],
-      [
-        "Monty Python and the Holy Grail",
-        1975,
-        "Terry Gilliam, Terry Jones"
-      ],
-      [
-        "The Empire Strikes Back",
-        1980,
-        "Irvin Kershner"
-      ],
-      [
-        "Perfect Days",
-        2023,
-        "Wim Wenders"
-      ],
-      [
-        "Yojimbo",
-        1961,
-        "Akira Kurosawa"
-      ],
-      [
-        "Reservoir Dogs",
-        1992,
-        "Quentin Tarantino"
-      ],
-      [
-        "Breaking the Waves",
-        1996,
-        "Lars von Trier"
-      ],
-      [
-        "Some Like It Hot",
-        1959,
-        "Billy Wilder"
-      ],
-      [
-        "The Bridge on the River Kwai",
-        1957,
-        "David Lean"
-      ],
-      [
-        "Se7en",
-        1995,
-        "David Fincher"
-      ],
-      [
-        "Fail Safe",
-        1964,
-        "Sidney Lumet"
-      ],
-      [
-        "The Celebration",
-        1998,
-        "Thomas Vinterberg"
-      ],
-      [
-        "The Godfather",
-        1972,
-        "Francis Ford Coppola"
-      ],
-      [
-        "All About Eve",
-        1950,
-        "Joseph L. Mankiewicz"
-      ],
-      [
-        "Amadeus",
-        1984,
-        "Miloš Forman"
-      ],
-      [
-        "Mind Game",
-        2004,
-        "Masaaki Yuasa"
-      ],
-      [
-        "Full Metal Jacket",
-        1987,
-        "Stanley Kubrick"
-      ],
-      [
-        "Cabaret",
-        1972,
-        "Bob Fosse"
-      ],
-      [
-        "Punishment Park",
-        1971,
-        "Peter Watkins"
-      ],
-      [
-        "Fitzcarraldo",
-        1982,
-        "Werner Herzog"
-      ],
-      [
-        "Seven Samurai",
-        1954,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Godfather Part II",
-        1974,
-        "Francis Ford Coppola"
-      ],
-      [
-        "Solaris",
-        1972,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "The Kid",
-        1921,
-        "Charlie Chaplin"
-      ],
-      [
-        "Drive My Car",
-        2021,
-        "Ryusuke Hamaguchi"
-      ],
-      [
-        "Dancer in the Dark",
-        2000,
-        "Lars von Trier"
-      ],
-      [
-        "Akira",
-        1988,
-        "Katsuhiro Otomo"
-      ],
-      [
-        "Dogville",
-        2003,
-        "Lars von Trier"
-      ],
-      [
-        "Mad Max: Fury Road",
-        2015,
-        "George Miller"
-      ],
-      [
-        "Prisoners",
-        2013,
-        "Denis Villeneuve"
-      ],
-      [
-        "On the Waterfront",
-        1954,
-        "Elia Kazan"
-      ],
-      [
-        "They Shoot Horses, Don't They?",
-        1969,
-        "Sydney Pollack"
-      ],
-      [
-        "The Fall",
-        2006,
-        "Tarsem Singh"
-      ],
-      [
-        "Short Cuts",
-        1993,
-        "Robert Altman"
-      ],
-      [
-        "American History X",
-        1998,
-        "Tony Kaye"
-      ],
-      [
-        "Metropolis",
-        1927,
-        "Fritz Lang"
-      ],
-      [
-        "Sweet Smell of Success",
-        1957,
-        "Alexander Mackendrick"
-      ],
-      [
-        "Wild Strawberries",
-        1957,
-        "Ingmar Bergman"
-      ],
-      [
-        "8½",
-        1963,
-        "Federico Fellini"
-      ],
-      [
-        "Anatomy of a Murder",
-        1959,
-        "Otto Preminger"
-      ],
-      [
-        "The Shawshank Redemption",
-        1994,
-        "Frank Darabont"
-      ],
-      [
-        "The Handmaiden",
-        2016,
-        "Park Chan-wook"
-      ],
-      [
-        "Oldboy",
-        2003,
-        "Park Chan-wook"
-      ],
-      [
-        "Magnolia",
-        1999,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "McCabe & Mrs. Miller",
-        1971,
-        "Robert Altman"
-      ],
-      [
-        "The Sting",
-        1973,
-        "George Roy Hill"
-      ],
-      [
-        "The General",
-        1926,
-        "Buster Keaton, Clyde Bruckman"
-      ],
-      [
-        "Stand by Me",
-        1986,
-        "Rob Reiner"
-      ],
-      [
-        "Twin Peaks: Fire Walk with Me",
-        1992,
-        "David Lynch"
-      ],
-      [
-        "Phantom of the Paradise",
-        1974,
-        "Brian De Palma"
-      ],
-      [
-        "Singin' in the Rain",
-        1952,
-        "Gene Kelly, Stanley Donen"
-      ],
-      [
-        "Cinema Paradiso",
-        1988,
-        "Giuseppe Tornatore"
-      ],
-      [
-        "Joint Security Area",
-        2000,
-        "Park Chan-wook"
-      ],
-      [
-        "Fantastic Mr. Fox",
-        2009,
-        "Wes Anderson"
-      ],
-      [
-        "Eternal Sunshine of the Spotless Mind",
-        2004,
-        "Michel Gondry"
-      ],
-      [
-        "Witness for the Prosecution",
-        1957,
-        "Billy Wilder"
-      ],
-      [
-        "Chungking Express",
-        1994,
-        "Wong Kar-wai"
-      ],
-      [
-        "Rosemary's Baby",
-        1968,
-        "Roman Polanski"
-      ],
-      [
-        "Amélie",
-        2001,
-        "Jean-Pierre Jeunet"
-      ],
-      [
-        "The Hunt",
-        2012,
-        "Thomas Vinterberg"
-      ],
-      [
-        "La Dolce Vita",
-        1960,
-        "Federico Fellini"
-      ],
-      [
-        "Paris, Texas",
-        1984,
-        "Wim Wenders"
-      ],
-      [
-        "Butch Cassidy and the Sundance Kid",
-        1969,
-        "George Roy Hill"
-      ],
-      [
-        "Stalker",
-        1979,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "Little Miss Sunshine",
-        2006,
-        "Jonathan Dayton, Valerie Faris"
-      ],
-      [
-        "Faust",
-        1926,
-        "F. W. Murnau"
-      ],
-      [
-        "Three Colours: Red",
-        1994,
-        "Krzysztof Kieślowski"
-      ],
-      [
-        "The Elephant Man",
-        1980,
-        "David Lynch"
-      ],
-      [
-        "Dial M for Murder",
-        1954,
-        "Alfred Hitchcock"
-      ],
-      [
-        "12 Angry Men",
-        1957,
-        "Sidney Lumet"
-      ],
-      [
-        "The Grand Budapest Hotel",
-        2014,
-        "Wes Anderson"
-      ],
-      [
-        "Rocco and His Brothers",
-        1960,
-        "Luchino Visconti"
-      ],
-      [
-        "Ran",
-        1985,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Exterminating Angel",
-        1962,
-        "Luis Buñuel"
-      ],
-      [
-        "The Silence of the Lambs",
-        1991,
-        "Jonathan Demme"
-      ],
-      [
-        "Back to the Future",
-        1985,
-        "Robert Zemeckis"
-      ],
-      [
-        "Coraline",
-        2009,
-        "Henry Selick"
-      ],
-      [
-        "Alice in the Cities",
-        1974,
-        "Wim Wenders"
-      ],
-      [
-        "Ratatouille",
-        2007,
-        "Brad Bird"
-      ],
-      [
-        "Persona",
-        1966,
-        "Ingmar Bergman"
-      ],
-      [
-        "The Last Picture Show",
-        1971,
-        "Peter Bogdanovich"
-      ],
-      [
-        "The Great Escape",
-        1963,
-        "John Sturges"
-      ],
-      [
-        "The Treasure of the Sierra Madre",
-        1948,
-        "John Huston"
-      ],
-      [
-        "All About My Mother",
-        1999,
-        "Pedro Almodóvar"
-      ],
-      [
-        "Shame",
-        1968,
-        "Ingmar Bergman"
-      ],
-      [
-        "Monster",
-        2023,
-        "Hirokazu Kore-eda"
-      ],
-      [
-        "Hiroshima Mon Amour",
-        1959,
-        "Alain Resnais"
-      ],
-      [
-        "Aftersun",
-        2022,
-        "Charlotte Wells"
-      ],
-      [
-        "Fanny and Alexander",
-        1982,
-        "Ingmar Bergman"
-      ],
-      [
-        "Amour",
-        2012,
-        "Michael Haneke"
-      ],
-      [
-        "Life Is Beautiful",
-        1997,
-        "Roberto Benigni"
-      ],
-      [
-        "Children of Paradise",
-        1945,
-        "Marcel Carné"
-      ],
-      [
-        "The Hidden Fortress",
-        1958,
-        "Akira Kurosawa"
-      ],
-      [
-        "It's a Wonderful Life",
-        1946,
-        "Frank Capra"
-      ],
-      [
-        "Good Will Hunting",
-        1997,
-        "Gus Van Sant"
-      ],
-      [
-        "The Truman Show",
-        1998,
-        "Peter Weir"
-      ],
-      [
-        "Phantom Thread",
-        2017,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "Mother",
-        2009,
-        "Bong Joon-ho"
-      ],
-      [
-        "The Seventh Seal",
-        1957,
-        "Ingmar Bergman"
-      ],
-      [
-        "Everything Everywhere All at Once",
-        2022,
-        "Daniel Kwan, Daniel Scheinert"
-      ],
-      [
-        "Rashomon",
-        1950,
-        "Akira Kurosawa"
-      ],
-      [
-        "The Straight Story",
-        1999,
-        "David Lynch"
-      ],
-      [
-        "Portrait of a Lady on Fire",
-        2019,
-        "Céline Sciamma"
-      ],
-      [
-        "Pan's Labyrinth",
-        2006,
-        "Guillermo del Toro"
-      ],
-      [
-        "Whiplash",
-        2014,
-        "Damien Chazelle"
-      ],
-      [
-        "Moonlight",
-        2016,
-        "Barry Jenkins"
-      ],
-      [
-        "Spirited Away",
-        2001,
-        "Hayao Miyazaki"
-      ],
-      [
-        "Before Sunrise",
-        1995,
-        "Richard Linklater"
-      ],
-      [
-        "Do the Right Thing",
-        1989,
-        "Spike Lee"
-      ],
-      [
-        "To Be or Not to Be",
-        1942,
-        "Ernst Lubitsch"
-      ],
-      [
-        "My Neighbor Totoro",
-        1988,
-        "Hayao Miyazaki"
-      ],
-      [
-        "The Killer",
-        1989,
-        "John Woo"
-      ],
-      [
-        "The Lord of the Rings: The Two Towers",
-        2002,
-        "Peter Jackson"
-      ],
-      [
-        "The Red Shoes",
-        1948,
-        "Michael Powell, Emeric Pressburger"
-      ],
-      [
-        "Saving Private Ryan",
-        1998,
-        "Steven Spielberg"
-      ],
-      [
-        "A Woman Under the Influence",
-        1974,
-        "John Cassavetes"
-      ],
-      [
-        "Star Wars",
-        1977,
-        "George Lucas"
-      ],
-      [
-        "Forrest Gump",
-        1994,
-        "Robert Zemeckis"
-      ],
-      [
-        "La Strada",
-        1954,
-        "Federico Fellini"
-      ],
-      [
-        "Citizen Kane",
-        1941,
-        "Orson Welles"
-      ],
-      [
-        "Rififi",
-        1955,
-        "Jules Dassin"
-      ],
-      [
-        "Grand Illusion",
-        1937,
-        "Jean Renoir"
-      ],
-      [
-        "Mr. Smith Goes to Washington",
-        1939,
-        "Frank Capra"
-      ],
-      [
-        "The Grapes of Wrath",
-        1940,
-        "John Ford"
-      ],
-      [
-        "Andrei Rublev",
-        1966,
-        "Andrei Tarkovsky"
-      ],
-      [
-        "Midnight Cowboy",
-        1969,
-        "John Schlesinger"
-      ],
-      [
-        "The Lobster",
-        2015,
-        "Yorgos Lanthimos"
-      ],
-      [
-        "The Place Beyond the Pines",
-        2012,
-        "Derek Cianfrance"
-      ],
-      [
-        "Joker",
-        2019,
-        "Todd Phillips"
-      ],
-      [
-        "Nightcrawler",
-        2014,
-        "Dan Gilroy"
-      ],
-      [
-        "Gravity",
-        2013,
-        "Alfonso Cuarón"
-      ],
-      [
-        "The Killing of a Sacred Deer",
-        2017,
-        "Yorgos Lanthimos"
-      ],
-      [
-        "Carnage",
-        2011,
-        "Roman Polanski"
-      ],
-      [
-        "Don't Breathe",
-        2016,
-        "Fede Álvarez"
-      ],
-      [
-        "Marguerite",
-        2015,
-        "Xavier Giannoli"
-      ],
-      [
-        "Detroit",
-        2017,
-        "Kathryn Bigelow"
-      ],
-      [
-        "Dunkirk",
-        2017,
-        "Christopher Nolan"
-      ],
-      [
-        "Isle of Dogs",
-        2018,
-        "Wes Anderson"
-      ],
-      [
-        "Silence",
-        2016,
-        "Martin Scorsese"
-      ],
-      [
-        "Blade Runner 2049",
-        2017,
-        "Denis Villeneuve"
-      ],
-      [
-        "The Revenant",
-        2015,
-        "Alejandro González Iñárritu"
-      ],
-      [
-        "10 Cloverfield Lane",
-        2016,
-        "Dan Trachtenberg"
-      ],
-      [
-        "Us",
-        2019,
-        "Jordan Peele"
-      ],
-      [
-        "Victoria",
-        2015,
-        "Sebastian Schipper"
-      ],
-      [
-        "The House That Jack Built",
-        2018,
-        "Lars von Trier"
-      ],
-      [
-        "Midsommar",
-        2019,
-        "Ari Aster"
-      ],
-      [
-        "Doctor Sleep",
-        2019,
-        "Mike Flanagan"
-      ],
-      [
-        "An Officer and a Spy",
-        2019,
-        "Roman Polanski"
-      ],
-      [
-        "The Painted Bird",
-        2019,
-        "Václav Marhoul"
-      ],
-      [
-        "Lord of War",
-        2005,
-        "Andrew Niccol"
-      ],
-      [
-        "Mesrine: Killer Instinct",
-        2008,
-        "Jean-François Richet"
-      ],
-      [
-        "Mesrine: Public Enemy No. 1",
-        2008,
-        "Jean-François Richet"
-      ],
-      [
-        "Apocalypto",
-        2006,
-        "Mel Gibson"
-      ],
-      [
-        "Enter the Void",
-        2009,
-        "Gaspar Noé"
-      ],
-      [
-        "The Woodsman",
-        2004,
-        "Nicole Kassell"
-      ],
-      [
-        "Black Book",
-        2006,
-        "Paul Verhoeven"
-      ],
-      [
-        "Thank You for Smoking",
-        2005,
-        "Jason Reitman"
-      ],
-      [
-        "Head-On",
-        2004,
-        "Fatih Akin"
-      ],
-      [
-        "28 Days Later",
-        2002,
-        "Danny Boyle"
-      ],
-      [
-        "30 Days of Night",
-        2007,
-        "David Slade"
-      ],
-      [
-        "American Psycho",
-        2000,
-        "Mary Harron"
-      ],
-      [
-        "Dogtooth",
-        2009,
-        "Yorgos Lanthimos"
-      ],
-      [
-        "Strange Days",
-        1995,
-        "Kathryn Bigelow"
-      ],
-      [
-        "Lost Highway",
-        1997,
-        "David Lynch"
-      ],
-      [
-        "Total Recall",
-        1990,
-        "Paul Verhoeven"
-      ],
-      [
-        "Natural Born Killers",
-        1994,
-        "Oliver Stone"
-      ],
-      [
-        "From Dusk Till Dawn",
-        1996,
-        "Robert Rodriguez"
-      ],
-      [
-        "Man on the Moon",
-        1999,
-        "Miloš Forman"
-      ],
-      [
-        "12 Monkeys",
-        1995,
-        "Terry Gilliam"
-      ],
-      [
-        "Starship Troopers",
-        1997,
-        "Paul Verhoeven"
-      ],
-      [
-        "Funny Games",
-        1997,
-        "Michael Haneke"
-      ],
-      [
-        "L.A. Confidential",
-        1997,
-        "Curtis Hanson"
-      ],
-      [
-        "Face/Off",
-        1997,
-        "John Woo"
-      ],
-      [
-        "American Beauty",
-        1999,
-        "Sam Mendes"
-      ],
-      [
-        "Crouching Tiger, Hidden Dragon",
-        2000,
-        "Ang Lee"
-      ],
-      [
-        "Blade Runner",
-        1982,
-        "Ridley Scott"
-      ],
-      [
-        "The Terminator",
-        1984,
-        "James Cameron"
-      ],
-      [
-        "Monty Python's The Meaning of Life",
-        1983,
-        "Terry Jones"
-      ],
-      [
-        "Blue Velvet",
-        1986,
-        "David Lynch"
-      ],
-      [
-        "Christiane F.",
-        1981,
-        "Uli Edel"
-      ],
-      [
-        "Gandhi",
-        1982,
-        "Richard Attenborough"
-      ],
-      [
-        "Brazil",
-        1985,
-        "Terry Gilliam"
-      ],
-      [
-        "Escape from New York",
-        1981,
-        "John Carpenter"
-      ],
-      [
-        "The Postman Always Rings Twice",
-        1981,
-        "Bob Rafelson"
-      ],
-      [
-        "Angel Heart",
-        1987,
-        "Alan Parker"
-      ],
-      [
-        "The Big Blue",
-        1988,
-        "Luc Besson"
-      ],
-      [
-        "The Fourth Man",
-        1983,
-        "Paul Verhoeven"
-      ],
-      [
-        "Dead Ringers",
-        1988,
-        "David Cronenberg"
-      ],
-      [
-        "Eraserhead",
-        1977,
-        "David Lynch"
-      ],
-      [
-        "A Clockwork Orange",
-        1971,
-        "Stanley Kubrick"
-      ],
-      [
-        "Taxi Driver",
-        1976,
-        "Martin Scorsese"
-      ],
-      [
-        "THX 1138",
-        1971,
-        "George Lucas"
-      ],
-      [
-        "1900",
-        1976,
-        "Bernardo Bertolucci"
-      ],
-      [
-        "Marathon Man",
-        1976,
-        "John Schlesinger"
-      ],
-      [
-        "Life of Brian",
-        1979,
-        "Terry Jones"
-      ],
-      [
-        "The Tin Drum",
-        1979,
-        "Volker Schlöndorff"
-      ],
-      [
-        "The Million Game",
-        1970,
-        "Tom Toelle"
-      ],
-      [
-        "Westworld",
-        1973,
-        "Michael Crichton"
-      ],
-      [
-        "Dark Star",
-        1974,
-        "John Carpenter"
-      ],
-      [
-        "Duck, You Sucker!",
-        1971,
-        "Sergio Leone"
-      ],
-      [
-        "Frenzy",
-        1972,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Harold and Maude",
-        1971,
-        "Hal Ashby"
-      ],
-      [
-        "Enter the Dragon",
-        1973,
-        "Robert Clouse"
-      ],
-      [
-        "Death in Venice",
-        1971,
-        "Luchino Visconti"
-      ],
-      [
-        "Deliverance",
-        1972,
-        "John Boorman"
-      ],
-      [
-        "The Discreet Charm of the Bourgeoisie",
-        1972,
-        "Luis Buñuel"
-      ],
-      [
-        "Jaws",
-        1975,
-        "Steven Spielberg"
-      ],
-      [
-        "Annie Hall",
-        1977,
-        "Woody Allen"
-      ],
-      [
-        "Mad Max",
-        1979,
-        "George Miller"
-      ],
-      [
-        "Breathless",
-        1960,
-        "Jean-Luc Godard"
-      ],
-      [
-        "The Graduate",
-        1967,
-        "Mike Nichols"
-      ],
-      [
-        "One, Two, Three",
-        1961,
-        "Billy Wilder"
-      ],
-      [
-        "Bullitt",
-        1968,
-        "Peter Yates"
-      ],
-      [
-        "Pierrot le Fou",
-        1965,
-        "Jean-Luc Godard"
-      ],
-      [
-        "The 10th Victim",
-        1965,
-        "Elio Petri"
-      ],
-      [
-        "The Wild Bunch",
-        1969,
-        "Sam Peckinpah"
-      ],
-      [
-        "The Party",
-        1968,
-        "Blake Edwards"
-      ],
-      [
-        "L'Avventura",
-        1960,
-        "Michelangelo Antonioni"
-      ],
-      [
-        "Breakfast at Tiffany's",
-        1961,
-        "Blake Edwards"
-      ],
-      [
-        "To Kill a Mockingbird",
-        1962,
-        "Robert Mulligan"
-      ],
-      [
-        "Goldfinger",
-        1964,
-        "Guy Hamilton"
-      ],
-      [
-        "Doctor Zhivago",
-        1965,
-        "David Lean"
-      ],
-      [
-        "Bonnie and Clyde",
-        1967,
-        "Arthur Penn"
-      ],
-      [
-        "Easy Rider",
-        1969,
-        "Dennis Hopper"
-      ],
-      [
-        "Elevator to the Gallows",
-        1958,
-        "Louis Malle"
-      ],
-      [
-        "The Killing",
-        1956,
-        "Stanley Kubrick"
-      ],
-      [
-        "Cat on a Hot Tin Roof",
-        1958,
-        "Richard Brooks"
-      ],
-      [
-        "The Man with the Golden Arm",
-        1955,
-        "Otto Preminger"
-      ],
-      [
-        "A Streetcar Named Desire",
-        1951,
-        "Elia Kazan"
-      ],
-      [
-        "Rebel Without a Cause",
-        1955,
-        "Nicholas Ray"
-      ],
-      [
-        "Giant",
-        1956,
-        "George Stevens"
-      ],
-      [
-        "The Searchers",
-        1956,
-        "John Ford"
-      ],
-      [
-        "Ben-Hur",
-        1959,
-        "William Wyler"
-      ],
-      [
-        "Shadow of a Doubt",
-        1943,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Fantasia",
-        1940,
-        "Samuel Armstrong, James Algar, Bill Roberts, Paul Satterfield, Ben Sharpsteen, David D. Hand, Hamilton Luske, Jim Handley, Ford Beebe, T. Hee, Norman Ferguson, Wilfred Jackson"
-      ],
-      [
-        "The Big Sleep",
-        1946,
-        "Howard Hawks"
-      ],
-      [
-        "The African Queen",
-        1951,
-        "John Huston"
-      ],
-      [
-        "High Noon",
-        1952,
-        "Fred Zinnemann"
-      ],
-      [
-        "Strangers on a Train",
-        1951,
-        "Alfred Hitchcock"
-      ],
-      [
-        "The Cabinet of Dr. Caligari",
-        1920,
-        "Robert Wiene"
-      ],
-      [
-        "Nosferatu",
-        1922,
-        "F. W. Murnau"
-      ],
-      [
-        "Napoleon",
-        1927,
-        "Abel Gance"
-      ],
-      [
-        "Dr. Mabuse, the Gambler",
-        1922,
-        "Fritz Lang"
-      ],
-      [
-        "Battleship Potemkin",
-        1925,
-        "Sergei Eisenstein"
-      ],
-      [
-        "Greed",
-        1924,
-        "Erich von Stroheim"
-      ],
-      [
-        "A Page of Madness",
-        1926,
-        "Teinosuke Kinugasa"
-      ],
-      [
-        "The Last Laugh",
-        1924,
-        "F. W. Murnau"
-      ],
-      [
-        "The Golem: How He Came into the World",
-        1920,
-        "Paul Wegener, Carl Boese"
-      ],
-      [
-        "Strike",
-        1925,
-        "Sergei Eisenstein"
-      ],
-      [
-        "October",
-        1927,
-        "Sergei Eisenstein, Grigori Aleksandrov"
-      ],
-      [
-        "Genuine",
-        1920,
-        "Robert Wiene"
-      ],
-      [
-        "The Phantom Carriage",
-        1921,
-        "Victor Sjöström"
-      ],
-      [
-        "Dr. Jekyll and Mr. Hyde",
-        1920,
-        "John S. Robertson"
-      ],
-      [
-        "The Cat and the Canary",
-        1927,
-        "Paul Leni"
-      ],
-      [
-        "The Penalty",
-        1920,
-        "Wallace Worsley"
-      ],
-      [
-        "Destiny",
-        1921,
-        "Fritz Lang"
-      ],
-      [
-        "Safety Last!",
-        1923,
-        "Fred C. Newmeyer, Sam Taylor"
-      ],
-      [
-        "The Ten Commandments",
-        1923,
-        "Cecil B. DeMille"
-      ],
-      [
-        "La Roue",
-        1923,
-        "Abel Gance"
-      ],
-      [
-        "The Man Who Laughs",
-        1928,
-        "Paul Leni"
-      ],
-      [
-        "Pandora's Box",
-        1929,
-        "G. W. Pabst"
-      ],
-      [
-        "Woman in the Moon",
-        1929,
-        "Fritz Lang"
-      ],
-      [
-        "The Blue Angel",
-        1930,
-        "Josef von Sternberg"
-      ],
-      [
-        "The 39 Steps",
-        1935,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Dracula",
-        1931,
-        "Tod Browning"
-      ],
-      [
-        "The Testament of Dr. Mabuse",
-        1933,
-        "Fritz Lang"
-      ],
-      [
-        "Freaks",
-        1932,
-        "Tod Browning"
-      ],
-      [
-        "The Invisible Man",
-        1933,
-        "James Whale"
-      ],
-      [
-        "The Wizard of Oz",
-        1939,
-        "Victor Fleming"
-      ],
-      [
-        "Vampyr",
-        1932,
-        "Carl Theodor Dreyer"
-      ],
-      [
-        "The Public Enemy",
-        1931,
-        "William A. Wellman"
-      ],
-      [
-        "The Golden Age",
-        1930,
-        "Luis Buñuel"
-      ],
-      [
-        "The Black Cat",
-        1934,
-        "Edgar G. Ulmer"
-      ],
-      [
-        "Gone with the Wind",
-        1939,
-        "Victor Fleming"
-      ],
-      [
-        "Grand Hotel",
-        1932,
-        "Edmund Goulding"
-      ],
-      [
-        "Little Caesar",
-        1931,
-        "Mervyn LeRoy"
-      ],
-      [
-        "Frankenstein",
-        1931,
-        "James Whale"
-      ],
-      [
-        "Reefer Madness",
-        1936,
-        "Louis J. Gasnier"
-      ],
-      [
-        "The Thin Man",
-        1934,
-        "W. S. Van Dyke"
-      ],
-      [
-        "The Man Who Knew Too Much",
-        1934,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Maniac",
-        1934,
-        "Dwain Esper"
-      ],
-      [
-        "Bride of Frankenstein",
-        1935,
-        "James Whale"
-      ],
-      [
-        "The Raven",
-        1935,
-        "Lew Landers"
-      ],
-      [
-        "Mark of the Vampire",
-        1935,
-        "Tod Browning"
-      ],
-      [
-        "Things to Come",
-        1936,
-        "William Cameron Menzies"
-      ],
-      [
-        "The Devil-Doll",
-        1936,
-        "Tod Browning"
-      ],
-      [
-        "The Rules of the Game",
-        1939,
-        "Jean Renoir"
-      ],
-      [
-        "The Hunchback of Notre Dame",
-        1939,
-        "William Dieterle"
-      ],
-      [
-        "Of Mice and Men",
-        1939,
-        "Lewis Milestone"
-      ],
-      [
-        "Rebecca",
-        1940,
-        "Alfred Hitchcock"
-      ],
-      [
-        "The Maltese Falcon",
-        1941,
-        "John Huston"
-      ],
-      [
-        "Suspicion",
-        1941,
-        "Alfred Hitchcock"
-      ],
-      [
-        "How Green Was My Valley",
-        1941,
-        "John Ford"
-      ],
-      [
-        "Mr. & Mrs. Smith",
-        1941,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Man Hunt",
-        1941,
-        "Fritz Lang"
-      ],
-      [
-        "Cat People",
-        1942,
-        "Jacques Tourneur"
-      ],
-      [
-        "The Magnificent Ambersons",
-        1942,
-        "Orson Welles"
-      ],
-      [
-        "Meshes of the Afternoon",
-        1943,
-        "Maya Deren, Alexander Hammid"
-      ],
-      [
-        "Laura",
-        1944,
-        "Otto Preminger"
-      ],
-      [
-        "To Have and Have Not",
-        1944,
-        "Howard Hawks"
-      ],
-      [
-        "Gaslight",
-        1944,
-        "George Cukor"
-      ],
-      [
-        "Ministry of Fear",
-        1944,
-        "Fritz Lang"
-      ],
-      [
-        "Henry V",
-        1944,
-        "Laurence Olivier"
-      ],
-      [
-        "The Seventh Cross",
-        1944,
-        "Fred Zinnemann"
-      ],
-      [
-        "Spellbound",
-        1945,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Detour",
-        1945,
-        "Edgar G. Ulmer"
-      ],
-      [
-        "The Picture of Dorian Gray",
-        1945,
-        "Albert Lewin"
-      ],
-      [
-        "Notorious",
-        1946,
-        "Alfred Hitchcock"
-      ],
-      [
-        "Gilda",
-        1946,
-        "Charles Vidor"
-      ],
-      [
-        "The Stranger",
-        1946,
-        "Orson Welles"
-      ],
-      [
-        "The Killers",
-        1946,
-        "Robert Siodmak"
-      ],
-      [
-        "Out of the Past",
-        1947,
-        "Jacques Tourneur"
-      ],
-      [
-        "The Lady from Shanghai",
-        1947,
-        "Orson Welles"
-      ],
-      [
-        "Nightmare Alley",
-        1947,
-        "Edmund Goulding"
-      ],
-      [
-        "Monsieur Verdoux",
-        1947,
-        "Charlie Chaplin"
-      ],
-      [
-        "Key Largo",
-        1948,
-        "John Huston"
-      ],
-      [
-        "Hamlet",
-        1948,
-        "Laurence Olivier"
-      ],
-      [
-        "Oliver Twist",
-        1948,
-        "David Lean"
-      ],
-      [
-        "Germany Year Zero",
-        1948,
-        "Roberto Rossellini"
-      ],
-      [
-        "The Naked City",
-        1948,
-        "Jules Dassin"
-      ],
-      [
-        "Macbeth",
-        1948,
-        "Orson Welles"
-      ],
-      [
-        "Brighton Rock",
-        1948,
-        "John Boulting"
-      ],
-      [
-        "Shoeshine",
-        1946,
-        "Vittorio De Sica"
-      ],
-      [
-        "Paisan",
-        1946,
-        "Roberto Rossellini"
-      ],
-      [
-        "The Gold Rush",
-        1925,
-        "Charlie Chaplin"
-      ],
-      [
-        "The Passion of Joan of Arc",
-        1928,
-        "Carl Theodor Dreyer"
-      ],
-      [
-        "Sorry, Wrong Number",
-        1948,
-        "Anatole Litvak"
-      ],
-      [
-        "White Heat",
-        1949,
-        "Raoul Walsh"
-      ],
-      [
-        "From Here to Eternity",
-        1953,
-        "Fred Zinnemann"
-      ],
-      [
-        "East of Eden",
-        1955,
-        "Elia Kazan"
-      ],
-      [
-        "Invasion of the Body Snatchers",
-        1956,
-        "Don Siegel"
-      ],
-      [
-        "Blast of Silence",
-        1961,
-        "Allen Baron"
-      ],
-      [
-        "The Pink Panther",
-        1963,
-        "Blake Edwards"
-      ],
-      [
-        "Alphaville",
-        1965,
-        "Jean-Luc Godard"
-      ],
-      [
-        "A Fistful of Dollars",
-        1964,
-        "Sergio Leone"
-      ],
-      [
-        "On Her Majesty's Secret Service",
-        1969,
-        "Peter R. Hunt"
-      ],
-      [
-        "Johnny Got His Gun",
-        1971,
-        "Dalton Trumbo"
-      ],
-      [
-        "Up!",
-        1976,
-        "Russ Meyer"
-      ],
-      [
-        "The Deep",
-        1977,
-        "Peter Yates"
-      ],
-      [
-        "Cape Fear",
-        1991,
-        "Martin Scorsese"
-      ],
-      [
-        "Man Bites Dog",
-        1992,
-        "Rémy Belvaux, André Bonzel, Benoît Poelvoorde"
-      ],
-      [
-        "Gattaca",
-        1997,
-        "Andrew Niccol"
-      ],
-      [
-        "Kill Bill: Vol. 2",
-        2004,
-        "Quentin Tarantino"
-      ],
-      [
-        "Hunger",
-        2008,
-        "Steve McQueen"
-      ],
-      [
-        "Before the Devil Knows You're Dead",
-        2007,
-        "Sidney Lumet"
-      ],
-      [
-        "A Dangerous Method",
-        2011,
-        "David Cronenberg"
-      ],
-      [
-        "A Quiet Place",
-        2018,
-        "John Krasinski"
-      ],
-      [
-        "First Man",
-        2018,
-        "Damien Chazelle"
-      ],
-      [
-        "The Favourite",
-        2018,
-        "Yorgos Lanthimos"
-      ],
-      [
-        "1917",
-        2019,
-        "Sam Mendes"
-      ],
-      [
-        "Drive",
-        2011,
-        "Nicolas Winding Refn"
-      ],
-      [
-        "We Need to Talk About Kevin",
-        2011,
-        "Lynne Ramsay"
-      ],
-      [
-        "Melancholia",
-        2011,
-        "Lars von Trier"
-      ],
-      [
-        "The Ides of March",
-        2011,
-        "George Clooney"
-      ],
-      [
-        "Four Lions",
-        2010,
-        "Chris Morris"
-      ],
-      [
-        "Looper",
-        2012,
-        "Rian Johnson"
-      ],
-      [
-        "Snowpiercer",
-        2013,
-        "Bong Joon-ho"
-      ],
-      [
-        "Nymphomaniac",
-        2013,
-        "Lars von Trier"
-      ],
-      [
-        "Gone Girl",
-        2014,
-        "David Fincher"
-      ],
-      [
-        "Nocturnal Animals",
-        2016,
-        "Tom Ford"
-      ],
-      [
-        "Logan",
-        2017,
-        "James Mangold"
-      ],
-      [
-        "Brimstone",
-        2016,
-        "Martin Koolhoven"
-      ],
-      [
-        "Widows",
-        2018,
-        "Steve McQueen"
-      ],
-      [
-        "Red Sparrow",
-        2018,
-        "Francis Lawrence"
-      ],
-      [
-        "Never Look Away",
-        2018,
-        "Florian Henckel von Donnersmarck"
-      ],
-      [
-        "I, Tonya",
-        2017,
-        "Craig Gillespie"
-      ]
+      ["The Great Dictator", 1940, "Charlie Chaplin"],
+      ["Memento", 2000, "Christopher Nolan"],
+      ["All Quiet on the Western Front", 1930, "Lewis Milestone"],
+      ["There Will Be Blood", 2007, "Paul Thomas Anderson"],
+      ["Heat", 1995, "Michael Mann"],
+      ["Network", 1976, "Sidney Lumet"],
+      ["Django Unchained", 2012, "Quentin Tarantino"],
+      ["Kill Bill: Vol. 1", 2003, "Quentin Tarantino"],
+      ["Fight Club", 1999, "David Fincher"],
+      ["The Thing", 1982, "John Carpenter"],
+      ["Alien", 1979, "Ridley Scott"],
+      ["GoodFellas", 1990, "Martin Scorsese"],
+      ["Scarface", 1983, "Brian De Palma"],
+      ["Rope", 1948, "Alfred Hitchcock"],
+      ["Get Out", 2017, "Jordan Peele"],
+      ["Double Indemnity", 1944, "Billy Wilder"],
+      ["The Good, the Bad and the Ugly", 1966, "Sergio Leone"],
+      ["Sorcerer", 1977, "William Friedkin"],
+      ["Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 1964, "Stanley Kubrick"],
+      ["The Prestige", 2006, "Christopher Nolan"],
+      ["Diabolique", 1955, "Henri-Georges Clouzot"],
+      ["The Night of the Hunter", 1955, "Charles Laughton"],
+      ["The Shining", 1980, "Stanley Kubrick"],
+      ["Shutter Island", 2010, "Martin Scorsese"],
+      ["The Third Man", 1949, "Carol Reed"],
+      ["No Country for Old Men", 2007, "Joel Coen, Ethan Coen"],
+      ["For a Few Dollars More", 1965, "Sergio Leone"],
+      ["Touch of Evil", 1958, "Orson Welles"],
+      ["The Conversation", 1974, "Francis Ford Coppola"],
+      ["Dog Day Afternoon", 1975, "Sidney Lumet"],
+      ["Who's Afraid of Virginia Woolf?", 1966, "Mike Nichols"],
+      ["2001: A Space Odyssey", 1968, "Stanley Kubrick"],
+      ["Barry Lyndon", 1975, "Stanley Kubrick"],
+      ["The Leopard", 1963, "Luchino Visconti"],
+      ["Apocalypse Now", 1979, "Francis Ford Coppola"],
+      ["One Battle After Another", 2025, "Paul Thomas Anderson"],
+      ["The Cook, the Thief, His Wife & Her Lover", 1989, "Peter Greenaway"],
+      ["Inception", 2010, "Christopher Nolan"],
+      ["Psycho", 1960, "Alfred Hitchcock"],
+      ["City of God", 2002, "Fernando Meirelles, Kátia Lund"],
+      ["North by Northwest", 1959, "Alfred Hitchcock"],
+      ["La Haine", 1995, "Mathieu Kassovitz"],
+      ["The Wages of Fear", 1953, "Henri-Georges Clouzot"],
+      ["Boogie Nights", 1997, "Paul Thomas Anderson"],
+      ["Children of Men", 2006, "Alfonso Cuarón"],
+      ["Le Cercle Rouge", 1970, "Jean-Pierre Melville"],
+      ["The Matrix", 1999, "Lana Wachowski, Lilly Wachowski"],
+      ["Fargo", 1996, "Joel Coen"],
+      ["The Lost Weekend", 1945, "Billy Wilder"],
+      ["The King of Comedy", 1982, "Martin Scorsese"],
+      ["The White Ribbon", 2009, "Michael Haneke"],
+      ["Rome, Open City", 1945, "Roberto Rossellini"],
+      ["Raging Bull", 1980, "Martin Scorsese"],
+      ["The Departed", 2006, "Martin Scorsese"],
+      ["The Deer Hunter", 1978, "Michael Cimino"],
+      ["Incendies", 2010, "Denis Villeneuve"],
+      ["Lawrence of Arabia", 1962, "David Lean"],
+      ["One Flew Over the Cuckoo's Nest", 1975, "Miloš Forman"],
+      ["Das Boot", 1981, "Wolfgang Petersen"],
+      ["Malcolm X", 1992, "Spike Lee"],
+      ["It Happened One Night", 1934, "Frank Capra"],
+      ["The Lives of Others", 2006, "Florian Henckel von Donnersmarck"],
+      ["Arrival", 2016, "Denis Villeneuve"],
+      ["The Apartment", 1960, "Billy Wilder"],
+      ["Casablanca", 1942, "Michael Curtiz"],
+      ["Paths of Glory", 1957, "Stanley Kubrick"],
+      ["All the President's Men", 1976, "Alan J. Pakula"],
+      ["Pulp Fiction", 1994, "Quentin Tarantino"],
+      ["Ali: Fear Eats the Soul", 1974, "Rainer Werner Fassbinder"],
+      ["In Cold Blood", 1967, "Richard Brooks"],
+      ["The Battle of Algiers", 1966, "Gillo Pontecorvo"],
+      ["Ace in the Hole", 1951, "Billy Wilder"],
+      ["Mulholland Drive", 2001, "David Lynch"],
+      ["Sunrise: A Song of Two Humans", 1927, "F. W. Murnau"],
+      ["M", 1931, "Fritz Lang"],
+      ["Parasite", 2019, "Bong Joon-ho"],
+      ["Le Samouraï", 1967, "Jean-Pierre Melville"],
+      ["Pink Floyd: The Wall", 1982, "Alan Parker"],
+      ["Vertigo", 1958, "Alfred Hitchcock"],
+      ["Z", 1969, "Costa-Gavras"],
+      ["Once Upon a Time in America", 1984, "Sergio Leone"],
+      ["Army of Shadows", 1969, "Jean-Pierre Melville"],
+      ["Interstellar", 2014, "Christopher Nolan"],
+      ["PlayTime", 1967, "Jacques Tati"],
+      ["Rear Window", 1954, "Alfred Hitchcock"],
+      ["Bicycle Thieves", 1948, "Vittorio De Sica"],
+      ["Sunset Boulevard", 1950, "Billy Wilder"],
+      ["Casino", 1995, "Martin Scorsese"],
+      ["Investigation of a Citizen Above Suspicion", 1970, "Elio Petri"],
+      ["Black Swan", 2010, "Darren Aronofsky"],
+      ["Shoplifters", 2018, "Hirokazu Kore-eda"],
+      ["Modern Times", 1936, "Charlie Chaplin"],
+      ["Once Upon a Time in the West", 1968, "Sergio Leone"],
+      ["City Lights", 1931, "Charlie Chaplin"],
+      ["Inglourious Basterds", 2009, "Quentin Tarantino"],
+      ["Chinatown", 1974, "Roman Polanski"],
+      ["Trainspotting", 1996, "Danny Boyle"],
+      ["The Dark Knight", 2008, "Christopher Nolan"],
+      ["Monty Python and the Holy Grail", 1975, "Terry Gilliam, Terry Jones"],
+      ["The Empire Strikes Back", 1980, "Irvin Kershner"],
+      ["Perfect Days", 2023, "Wim Wenders"],
+      ["Yojimbo", 1961, "Akira Kurosawa"],
+      ["Reservoir Dogs", 1992, "Quentin Tarantino"],
+      ["Breaking the Waves", 1996, "Lars von Trier"],
+      ["Some Like It Hot", 1959, "Billy Wilder"],
+      ["The Bridge on the River Kwai", 1957, "David Lean"],
+      ["Se7en", 1995, "David Fincher"],
+      ["Fail Safe", 1964, "Sidney Lumet"],
+      ["The Celebration", 1998, "Thomas Vinterberg"],
+      ["The Godfather", 1972, "Francis Ford Coppola"],
+      ["All About Eve", 1950, "Joseph L. Mankiewicz"],
+      ["Amadeus", 1984, "Miloš Forman"],
+      ["Mind Game", 2004, "Masaaki Yuasa"],
+      ["Full Metal Jacket", 1987, "Stanley Kubrick"],
+      ["Cabaret", 1972, "Bob Fosse"],
+      ["Punishment Park", 1971, "Peter Watkins"],
+      ["Fitzcarraldo", 1982, "Werner Herzog"],
+      ["Seven Samurai", 1954, "Akira Kurosawa"],
+      ["The Godfather Part II", 1974, "Francis Ford Coppola"],
+      ["Solaris", 1972, "Andrei Tarkovsky"],
+      ["The Kid", 1921, "Charlie Chaplin"],
+      ["Drive My Car", 2021, "Ryusuke Hamaguchi"],
+      ["Dancer in the Dark", 2000, "Lars von Trier"],
+      ["Akira", 1988, "Katsuhiro Otomo"],
+      ["Dogville", 2003, "Lars von Trier"],
+      ["Mad Max: Fury Road", 2015, "George Miller"],
+      ["Prisoners", 2013, "Denis Villeneuve"],
+      ["On the Waterfront", 1954, "Elia Kazan"],
+      ["They Shoot Horses, Don't They?", 1969, "Sydney Pollack"],
+      ["The Fall", 2006, "Tarsem Singh"],
+      ["Short Cuts", 1993, "Robert Altman"],
+      ["American History X", 1998, "Tony Kaye"],
+      ["Metropolis", 1927, "Fritz Lang"],
+      ["Sweet Smell of Success", 1957, "Alexander Mackendrick"],
+      ["Wild Strawberries", 1957, "Ingmar Bergman"],
+      ["8½", 1963, "Federico Fellini"],
+      ["Anatomy of a Murder", 1959, "Otto Preminger"],
+      ["The Shawshank Redemption", 1994, "Frank Darabont"],
+      ["The Handmaiden", 2016, "Park Chan-wook"],
+      ["Oldboy", 2003, "Park Chan-wook"],
+      ["Magnolia", 1999, "Paul Thomas Anderson"],
+      ["McCabe & Mrs. Miller", 1971, "Robert Altman"],
+      ["The Sting", 1973, "George Roy Hill"],
+      ["The General", 1926, "Buster Keaton, Clyde Bruckman"],
+      ["Stand by Me", 1986, "Rob Reiner"],
+      ["Twin Peaks: Fire Walk with Me", 1992, "David Lynch"],
+      ["Phantom of the Paradise", 1974, "Brian De Palma"],
+      ["Singin' in the Rain", 1952, "Gene Kelly, Stanley Donen"],
+      ["Cinema Paradiso", 1988, "Giuseppe Tornatore"],
+      ["Joint Security Area", 2000, "Park Chan-wook"],
+      ["Fantastic Mr. Fox", 2009, "Wes Anderson"],
+      ["Eternal Sunshine of the Spotless Mind", 2004, "Michel Gondry"],
+      ["Witness for the Prosecution", 1957, "Billy Wilder"],
+      ["Chungking Express", 1994, "Wong Kar-wai"],
+      ["Rosemary's Baby", 1968, "Roman Polanski"],
+      ["Amélie", 2001, "Jean-Pierre Jeunet"],
+      ["The Hunt", 2012, "Thomas Vinterberg"],
+      ["La Dolce Vita", 1960, "Federico Fellini"],
+      ["Paris, Texas", 1984, "Wim Wenders"],
+      ["Butch Cassidy and the Sundance Kid", 1969, "George Roy Hill"],
+      ["Stalker", 1979, "Andrei Tarkovsky"],
+      ["Little Miss Sunshine", 2006, "Jonathan Dayton, Valerie Faris"],
+      ["Faust", 1926, "F. W. Murnau"],
+      ["Three Colours: Red", 1994, "Krzysztof Kieślowski"],
+      ["The Elephant Man", 1980, "David Lynch"],
+      ["Dial M for Murder", 1954, "Alfred Hitchcock"],
+      ["12 Angry Men", 1957, "Sidney Lumet"],
+      ["The Grand Budapest Hotel", 2014, "Wes Anderson"],
+      ["Rocco and His Brothers", 1960, "Luchino Visconti"],
+      ["Ran", 1985, "Akira Kurosawa"],
+      ["The Exterminating Angel", 1962, "Luis Buñuel"],
+      ["The Silence of the Lambs", 1991, "Jonathan Demme"],
+      ["Back to the Future", 1985, "Robert Zemeckis"],
+      ["Coraline", 2009, "Henry Selick"],
+      ["Alice in the Cities", 1974, "Wim Wenders"],
+      ["Ratatouille", 2007, "Brad Bird"],
+      ["Persona", 1966, "Ingmar Bergman"],
+      ["The Last Picture Show", 1971, "Peter Bogdanovich"],
+      ["The Great Escape", 1963, "John Sturges"],
+      ["The Treasure of the Sierra Madre", 1948, "John Huston"],
+      ["All About My Mother", 1999, "Pedro Almodóvar"],
+      ["Shame", 1968, "Ingmar Bergman"],
+      ["Monster", 2023, "Hirokazu Kore-eda"],
+      ["Hiroshima Mon Amour", 1959, "Alain Resnais"],
+      ["Aftersun", 2022, "Charlotte Wells"],
+      ["Fanny and Alexander", 1982, "Ingmar Bergman"],
+      ["Amour", 2012, "Michael Haneke"],
+      ["Life Is Beautiful", 1997, "Roberto Benigni"],
+      ["Children of Paradise", 1945, "Marcel Carné"],
+      ["The Hidden Fortress", 1958, "Akira Kurosawa"],
+      ["It's a Wonderful Life", 1946, "Frank Capra"],
+      ["Good Will Hunting", 1997, "Gus Van Sant"],
+      ["The Truman Show", 1998, "Peter Weir"],
+      ["Phantom Thread", 2017, "Paul Thomas Anderson"],
+      ["Mother", 2009, "Bong Joon-ho"],
+      ["The Seventh Seal", 1957, "Ingmar Bergman"],
+      ["Everything Everywhere All at Once", 2022, "Daniel Kwan, Daniel Scheinert"],
+      ["Rashomon", 1950, "Akira Kurosawa"],
+      ["The Straight Story", 1999, "David Lynch"],
+      ["Portrait of a Lady on Fire", 2019, "Céline Sciamma"],
+      ["Pan's Labyrinth", 2006, "Guillermo del Toro"],
+      ["Whiplash", 2014, "Damien Chazelle"],
+      ["Moonlight", 2016, "Barry Jenkins"],
+      ["Spirited Away", 2001, "Hayao Miyazaki"],
+      ["Before Sunrise", 1995, "Richard Linklater"],
+      ["Do the Right Thing", 1989, "Spike Lee"],
+      ["To Be or Not to Be", 1942, "Ernst Lubitsch"],
+      ["My Neighbor Totoro", 1988, "Hayao Miyazaki"],
+      ["The Killer", 1989, "John Woo"],
+      ["The Lord of the Rings: The Two Towers", 2002, "Peter Jackson"],
+      ["The Red Shoes", 1948, "Michael Powell, Emeric Pressburger"],
+      ["Saving Private Ryan", 1998, "Steven Spielberg"],
+      ["A Woman Under the Influence", 1974, "John Cassavetes"],
+      ["Star Wars", 1977, "George Lucas"],
+      ["Forrest Gump", 1994, "Robert Zemeckis"],
+      ["La Strada", 1954, "Federico Fellini"],
+      ["Citizen Kane", 1941, "Orson Welles"],
+      ["Rififi", 1955, "Jules Dassin"],
+      ["Grand Illusion", 1937, "Jean Renoir"],
+      ["Mr. Smith Goes to Washington", 1939, "Frank Capra"],
+      ["The Grapes of Wrath", 1940, "John Ford"],
+      ["Andrei Rublev", 1966, "Andrei Tarkovsky"],
+      ["Midnight Cowboy", 1969, "John Schlesinger"],
+      ["The Lobster", 2015, "Yorgos Lanthimos"],
+      ["The Place Beyond the Pines", 2012, "Derek Cianfrance"],
+      ["Joker", 2019, "Todd Phillips"],
+      ["Nightcrawler", 2014, "Dan Gilroy"],
+      ["Gravity", 2013, "Alfonso Cuarón"],
+      ["The Killing of a Sacred Deer", 2017, "Yorgos Lanthimos"],
+      ["Carnage", 2011, "Roman Polanski"],
+      ["Don't Breathe", 2016, "Fede Álvarez"],
+      ["Marguerite", 2015, "Xavier Giannoli"],
+      ["Detroit", 2017, "Kathryn Bigelow"],
+      ["Dunkirk", 2017, "Christopher Nolan"],
+      ["Isle of Dogs", 2018, "Wes Anderson"],
+      ["Silence", 2016, "Martin Scorsese"],
+      ["Blade Runner 2049", 2017, "Denis Villeneuve"],
+      ["The Revenant", 2015, "Alejandro González Iñárritu"],
+      ["10 Cloverfield Lane", 2016, "Dan Trachtenberg"],
+      ["Us", 2019, "Jordan Peele"],
+      ["Victoria", 2015, "Sebastian Schipper"],
+      ["The House That Jack Built", 2018, "Lars von Trier"],
+      ["Midsommar", 2019, "Ari Aster"],
+      ["Doctor Sleep", 2019, "Mike Flanagan"],
+      ["An Officer and a Spy", 2019, "Roman Polanski"],
+      ["The Painted Bird", 2019, "Václav Marhoul"],
+      ["Lord of War", 2005, "Andrew Niccol"],
+      ["Mesrine: Killer Instinct", 2008, "Jean-François Richet"],
+      ["Mesrine: Public Enemy No. 1", 2008, "Jean-François Richet"],
+      ["Apocalypto", 2006, "Mel Gibson"],
+      ["Enter the Void", 2009, "Gaspar Noé"],
+      ["The Woodsman", 2004, "Nicole Kassell"],
+      ["Black Book", 2006, "Paul Verhoeven"],
+      ["Thank You for Smoking", 2005, "Jason Reitman"],
+      ["Head-On", 2004, "Fatih Akin"],
+      ["28 Days Later", 2002, "Danny Boyle"],
+      ["30 Days of Night", 2007, "David Slade"],
+      ["American Psycho", 2000, "Mary Harron"],
+      ["Dogtooth", 2009, "Yorgos Lanthimos"],
+      ["Strange Days", 1995, "Kathryn Bigelow"],
+      ["Lost Highway", 1997, "David Lynch"],
+      ["Total Recall", 1990, "Paul Verhoeven"],
+      ["Natural Born Killers", 1994, "Oliver Stone"],
+      ["From Dusk Till Dawn", 1996, "Robert Rodriguez"],
+      ["Man on the Moon", 1999, "Miloš Forman"],
+      ["12 Monkeys", 1995, "Terry Gilliam"],
+      ["Starship Troopers", 1997, "Paul Verhoeven"],
+      ["Funny Games", 1997, "Michael Haneke"],
+      ["L.A. Confidential", 1997, "Curtis Hanson"],
+      ["Face/Off", 1997, "John Woo"],
+      ["American Beauty", 1999, "Sam Mendes"],
+      ["Crouching Tiger, Hidden Dragon", 2000, "Ang Lee"],
+      ["Blade Runner", 1982, "Ridley Scott"],
+      ["The Terminator", 1984, "James Cameron"],
+      ["Monty Python's The Meaning of Life", 1983, "Terry Jones"],
+      ["Blue Velvet", 1986, "David Lynch"],
+      ["Christiane F.", 1981, "Uli Edel"],
+      ["Gandhi", 1982, "Richard Attenborough"],
+      ["Brazil", 1985, "Terry Gilliam"],
+      ["Escape from New York", 1981, "John Carpenter"],
+      ["The Postman Always Rings Twice", 1981, "Bob Rafelson"],
+      ["Angel Heart", 1987, "Alan Parker"],
+      ["The Big Blue", 1988, "Luc Besson"],
+      ["The Fourth Man", 1983, "Paul Verhoeven"],
+      ["Dead Ringers", 1988, "David Cronenberg"],
+      ["Eraserhead", 1977, "David Lynch"],
+      ["A Clockwork Orange", 1971, "Stanley Kubrick"],
+      ["Taxi Driver", 1976, "Martin Scorsese"],
+      ["THX 1138", 1971, "George Lucas"],
+      ["1900", 1976, "Bernardo Bertolucci"],
+      ["Marathon Man", 1976, "John Schlesinger"],
+      ["Life of Brian", 1979, "Terry Jones"],
+      ["The Tin Drum", 1979, "Volker Schlöndorff"],
+      ["The Million Game", 1970, "Tom Toelle"],
+      ["Westworld", 1973, "Michael Crichton"],
+      ["Dark Star", 1974, "John Carpenter"],
+      ["Duck, You Sucker!", 1971, "Sergio Leone"],
+      ["Frenzy", 1972, "Alfred Hitchcock"],
+      ["Harold and Maude", 1971, "Hal Ashby"],
+      ["Enter the Dragon", 1973, "Robert Clouse"],
+      ["Death in Venice", 1971, "Luchino Visconti"],
+      ["Deliverance", 1972, "John Boorman"],
+      ["The Discreet Charm of the Bourgeoisie", 1972, "Luis Buñuel"],
+      ["Jaws", 1975, "Steven Spielberg"],
+      ["Annie Hall", 1977, "Woody Allen"],
+      ["Mad Max", 1979, "George Miller"],
+      ["Breathless", 1960, "Jean-Luc Godard"],
+      ["The Graduate", 1967, "Mike Nichols"],
+      ["One, Two, Three", 1961, "Billy Wilder"],
+      ["Bullitt", 1968, "Peter Yates"],
+      ["Pierrot le Fou", 1965, "Jean-Luc Godard"],
+      ["The 10th Victim", 1965, "Elio Petri"],
+      ["The Wild Bunch", 1969, "Sam Peckinpah"],
+      ["The Party", 1968, "Blake Edwards"],
+      ["L'Avventura", 1960, "Michelangelo Antonioni"],
+      ["Breakfast at Tiffany's", 1961, "Blake Edwards"],
+      ["To Kill a Mockingbird", 1962, "Robert Mulligan"],
+      ["Goldfinger", 1964, "Guy Hamilton"],
+      ["Doctor Zhivago", 1965, "David Lean"],
+      ["Bonnie and Clyde", 1967, "Arthur Penn"],
+      ["Easy Rider", 1969, "Dennis Hopper"],
+      ["Elevator to the Gallows", 1958, "Louis Malle"],
+      ["The Killing", 1956, "Stanley Kubrick"],
+      ["Cat on a Hot Tin Roof", 1958, "Richard Brooks"],
+      ["The Man with the Golden Arm", 1955, "Otto Preminger"],
+      ["A Streetcar Named Desire", 1951, "Elia Kazan"],
+      ["Rebel Without a Cause", 1955, "Nicholas Ray"],
+      ["Giant", 1956, "George Stevens"],
+      ["The Searchers", 1956, "John Ford"],
+      ["Ben-Hur", 1959, "William Wyler"],
+      ["Shadow of a Doubt", 1943, "Alfred Hitchcock"],
+      ["Fantasia", 1940, "Samuel Armstrong, James Algar, Bill Roberts, Paul Satterfield, Ben Sharpsteen, David D. Hand, Hamilton Luske, Jim Handley, Ford Beebe, T. Hee, Norman Ferguson, Wilfred Jackson"],
+      ["The Big Sleep", 1946, "Howard Hawks"],
+      ["The African Queen", 1951, "John Huston"],
+      ["High Noon", 1952, "Fred Zinnemann"],
+      ["Strangers on a Train", 1951, "Alfred Hitchcock"],
+      ["The Cabinet of Dr. Caligari", 1920, "Robert Wiene"],
+      ["Nosferatu", 1922, "F. W. Murnau"],
+      ["Napoleon", 1927, "Abel Gance"],
+      ["Dr. Mabuse, the Gambler", 1922, "Fritz Lang"],
+      ["Battleship Potemkin", 1925, "Sergei Eisenstein"],
+      ["Greed", 1924, "Erich von Stroheim"],
+      ["A Page of Madness", 1926, "Teinosuke Kinugasa"],
+      ["The Last Laugh", 1924, "F. W. Murnau"],
+      ["The Golem: How He Came into the World", 1920, "Paul Wegener, Carl Boese"],
+      ["Strike", 1925, "Sergei Eisenstein"],
+      ["October", 1927, "Sergei Eisenstein, Grigori Aleksandrov"],
+      ["Genuine", 1920, "Robert Wiene"],
+      ["The Phantom Carriage", 1921, "Victor Sjöström"],
+      ["Dr. Jekyll and Mr. Hyde", 1920, "John S. Robertson"],
+      ["The Cat and the Canary", 1927, "Paul Leni"],
+      ["The Penalty", 1920, "Wallace Worsley"],
+      ["Destiny", 1921, "Fritz Lang"],
+      ["Safety Last!", 1923, "Fred C. Newmeyer, Sam Taylor"],
+      ["The Ten Commandments", 1923, "Cecil B. DeMille"],
+      ["La Roue", 1923, "Abel Gance"],
+      ["The Man Who Laughs", 1928, "Paul Leni"],
+      ["Pandora's Box", 1929, "G. W. Pabst"],
+      ["Woman in the Moon", 1929, "Fritz Lang"],
+      ["The Blue Angel", 1930, "Josef von Sternberg"],
+      ["The 39 Steps", 1935, "Alfred Hitchcock"],
+      ["Dracula", 1931, "Tod Browning"],
+      ["The Testament of Dr. Mabuse", 1933, "Fritz Lang"],
+      ["Freaks", 1932, "Tod Browning"],
+      ["The Invisible Man", 1933, "James Whale"],
+      ["The Wizard of Oz", 1939, "Victor Fleming"],
+      ["Vampyr", 1932, "Carl Theodor Dreyer"],
+      ["The Public Enemy", 1931, "William A. Wellman"],
+      ["The Golden Age", 1930, "Luis Buñuel"],
+      ["The Black Cat", 1934, "Edgar G. Ulmer"],
+      ["Gone with the Wind", 1939, "Victor Fleming"],
+      ["Grand Hotel", 1932, "Edmund Goulding"],
+      ["Little Caesar", 1931, "Mervyn LeRoy"],
+      ["Frankenstein", 1931, "James Whale"],
+      ["Reefer Madness", 1936, "Louis J. Gasnier"],
+      ["The Thin Man", 1934, "W. S. Van Dyke"],
+      ["The Man Who Knew Too Much", 1934, "Alfred Hitchcock"],
+      ["Maniac", 1934, "Dwain Esper"],
+      ["Bride of Frankenstein", 1935, "James Whale"],
+      ["The Raven", 1935, "Lew Landers"],
+      ["Mark of the Vampire", 1935, "Tod Browning"],
+      ["Things to Come", 1936, "William Cameron Menzies"],
+      ["The Devil-Doll", 1936, "Tod Browning"],
+      ["The Rules of the Game", 1939, "Jean Renoir"],
+      ["The Hunchback of Notre Dame", 1939, "William Dieterle"],
+      ["Of Mice and Men", 1939, "Lewis Milestone"],
+      ["Rebecca", 1940, "Alfred Hitchcock"],
+      ["The Maltese Falcon", 1941, "John Huston"],
+      ["Suspicion", 1941, "Alfred Hitchcock"],
+      ["How Green Was My Valley", 1941, "John Ford"],
+      ["Mr. & Mrs. Smith", 1941, "Alfred Hitchcock"],
+      ["Man Hunt", 1941, "Fritz Lang"],
+      ["Cat People", 1942, "Jacques Tourneur"],
+      ["The Magnificent Ambersons", 1942, "Orson Welles"],
+      ["Meshes of the Afternoon", 1943, "Maya Deren, Alexander Hammid"],
+      ["Laura", 1944, "Otto Preminger"],
+      ["To Have and Have Not", 1944, "Howard Hawks"],
+      ["Gaslight", 1944, "George Cukor"],
+      ["Ministry of Fear", 1944, "Fritz Lang"],
+      ["Henry V", 1944, "Laurence Olivier"],
+      ["The Seventh Cross", 1944, "Fred Zinnemann"],
+      ["Spellbound", 1945, "Alfred Hitchcock"],
+      ["Detour", 1945, "Edgar G. Ulmer"],
+      ["The Picture of Dorian Gray", 1945, "Albert Lewin"],
+      ["Notorious", 1946, "Alfred Hitchcock"],
+      ["Gilda", 1946, "Charles Vidor"],
+      ["The Stranger", 1946, "Orson Welles"],
+      ["The Killers", 1946, "Robert Siodmak"],
+      ["Out of the Past", 1947, "Jacques Tourneur"],
+      ["The Lady from Shanghai", 1947, "Orson Welles"],
+      ["Nightmare Alley", 1947, "Edmund Goulding"],
+      ["Monsieur Verdoux", 1947, "Charlie Chaplin"],
+      ["Key Largo", 1948, "John Huston"],
+      ["Hamlet", 1948, "Laurence Olivier"],
+      ["Oliver Twist", 1948, "David Lean"],
+      ["Germany Year Zero", 1948, "Roberto Rossellini"],
+      ["The Naked City", 1948, "Jules Dassin"],
+      ["Macbeth", 1948, "Orson Welles"],
+      ["Brighton Rock", 1948, "John Boulting"],
+      ["Shoeshine", 1946, "Vittorio De Sica"],
+      ["Paisan", 1946, "Roberto Rossellini"],
+      ["The Gold Rush", 1925, "Charlie Chaplin"],
+      ["The Passion of Joan of Arc", 1928, "Carl Theodor Dreyer"],
+      ["Sorry, Wrong Number", 1948, "Anatole Litvak"],
+      ["White Heat", 1949, "Raoul Walsh"],
+      ["From Here to Eternity", 1953, "Fred Zinnemann"],
+      ["East of Eden", 1955, "Elia Kazan"],
+      ["Invasion of the Body Snatchers", 1956, "Don Siegel"],
+      ["Blast of Silence", 1961, "Allen Baron"],
+      ["The Pink Panther", 1963, "Blake Edwards"],
+      ["Alphaville", 1965, "Jean-Luc Godard"],
+      ["A Fistful of Dollars", 1964, "Sergio Leone"],
+      ["On Her Majesty's Secret Service", 1969, "Peter R. Hunt"],
+      ["Johnny Got His Gun", 1971, "Dalton Trumbo"],
+      ["Up!", 1976, "Russ Meyer"],
+      ["The Deep", 1977, "Peter Yates"],
+      ["Cape Fear", 1991, "Martin Scorsese"],
+      ["Man Bites Dog", 1992, "Rémy Belvaux, André Bonzel, Benoît Poelvoorde"],
+      ["Gattaca", 1997, "Andrew Niccol"],
+      ["Kill Bill: Vol. 2", 2004, "Quentin Tarantino"],
+      ["Hunger", 2008, "Steve McQueen"],
+      ["Before the Devil Knows You're Dead", 2007, "Sidney Lumet"],
+      ["A Dangerous Method", 2011, "David Cronenberg"],
+      ["A Quiet Place", 2018, "John Krasinski"],
+      ["First Man", 2018, "Damien Chazelle"],
+      ["The Favourite", 2018, "Yorgos Lanthimos"],
+      ["1917", 2019, "Sam Mendes"],
+      ["Drive", 2011, "Nicolas Winding Refn"],
+      ["We Need to Talk About Kevin", 2011, "Lynne Ramsay"],
+      ["Melancholia", 2011, "Lars von Trier"],
+      ["The Ides of March", 2011, "George Clooney"],
+      ["Four Lions", 2010, "Chris Morris"],
+      ["Looper", 2012, "Rian Johnson"],
+      ["Snowpiercer", 2013, "Bong Joon-ho"],
+      ["Nymphomaniac", 2013, "Lars von Trier"],
+      ["Gone Girl", 2014, "David Fincher"],
+      ["Nocturnal Animals", 2016, "Tom Ford"],
+      ["Logan", 2017, "James Mangold"],
+      ["Brimstone", 2016, "Martin Koolhoven"],
+      ["Widows", 2018, "Steve McQueen"],
+      ["Red Sparrow", 2018, "Francis Lawrence"],
+      ["Never Look Away", 2018, "Florian Henckel von Donnersmarck"],
+      ["I, Tonya", 2017, "Craig Gillespie"]
+    ]
+  },
+  "redaktion": {
+    "label": "Favoriten der Redaktion",
+    "films": [
+      ["The Lobster", 2015, "Yorgos Lanthimos"],
+      ["In Bruges", 2008, "Martin McDonagh"],
+      ["Memento", 2000, "Christopher Nolan"],
+      ["Ran", 1985, "Akira Kurosawa"],
+      ["Millennium Actress", 2001, "Satoshi Kon"],
+      ["One Battle After Another", 2025, "Paul Thomas Anderson"],
+      ["No Country for Old Men", 2007, "Joel Coen, Ethan Coen"],
+      ["Self-Criticism of a Bourgeois Dog", 2017, "Julian Radlmaier"],
+      ["Kill Bill: The Whole Bloody Affair", 2003, "Quentin Tarantino"],
+      ["Zodiac", 2007, "David Fincher"],
+      ["Marie Antoinette", 2006, "Sofia Coppola"],
+      ["Jackass 3D", 2010, "Jeff Tremaine"],
+      ["Speed Racer", 2008, "Lana Wachowski, Lilly Wachowski"],
+      ["Delicatessen", 1991, "Marc Caro, Jean-Pierre Jeunet"],
+      ["In China They Eat Dogs", 1999, "Lasse Spang Olsen"],
+      ["City of God", 2002, "Kátia Lund, Fernando Meirelles"],
+      ["Snatch", 2000, "Guy Ritchie"],
+      ["Human Traffic", 1999, "Justin Kerrigan"],
+      ["Spun", 2002, "Jonas Åkerlund"],
+      ["Trainspotting", 1996, "Danny Boyle"],
+      ["Otto – The Movie", 1985, "Xaver Schwarzenberger"],
+      ["Klovn: The Movie", 2010, "Mikkel Nørgaard"],
+      ["This Is Spinal Tap", 1984, "Rob Reiner"],
+      ["Network", 1976, "Sidney Lumet"],
+      ["The Wolf of Wall Street", 2013, "Martin Scorsese"],
+      ["23", 1998, "Hans-Christian Schmid"],
+      ["The Secret Floor", 2026, "Norbert Lechner"],
+      ["A Fish Called Wanda", 1988, "Charles Crichton"],
+      ["Some Like It Hot", 1959, "Billy Wilder"],
+      ["Men & Chicken", 2015, "Anders Thomas Jensen"],
+      ["Fantastic Mr. Fox", 2009, "Wes Anderson"],
+      ["Oldboy", 2003, "Park Chan-wook"],
+      ["Inherent Vice", 2014, "Paul Thomas Anderson"],
+      ["When Harry Met Sally...", 1989, "Rob Reiner"],
+      ["RRR", 2022, "S. S. Rajamouli"],
+      ["Easy A", 2010, "Will Gluck"],
+      ["Sing Street", 2016, "John Carney"],
+      ["Portrait of a Lady on Fire", 2019, "Céline Sciamma"],
+      ["Kind Hearts and Coronets", 1949, "Robert Hamer"],
+      ["Our Man in Havana", 1959, "Carol Reed"],
+      ["Give Me Your Heart", 2010, "Nicole Weegmann"],
+      ["Water", 1985, "Dick Clement"],
+      ["World on a Wire", 1973, "Rainer Werner Fassbinder"],
+      ["Hatari!", 1962, "Howard Hawks"],
+      ["The African Queen", 1951, "John Huston"],
+      ["Welcome to L.A.", 1976, "Alan Rudolph"],
+      ["The Perfect Storm", 2000, "Wolfgang Petersen"],
+      ["The Princess Bride", 1987, "Rob Reiner"],
+      ["The Last Starfighter", 1984, "Nick Castle"],
+      ["Singles", 1992, "Cameron Crowe"],
+      ["The Island", 2005, "Michael Bay"],
+      ["The Rock", 1996, "Michael Bay"],
+      ["2001: A Space Odyssey", 1968, "Stanley Kubrick"],
+      ["The Lord of the Rings: The Fellowship of the Ring", 2001, "Peter Jackson"],
+      ["Lucky Number Slevin", 2006, "Paul McGuigan"],
+      ["Mad Max: Fury Road", 2015, "George Miller"],
+      ["Mortdecai", 2015, "David Koepp"],
+      ["Requiem for a Dream", 2000, "Darren Aronofsky"],
+      ["Nirvana the Band the Show the Movie", 2026, "Matt Johnson"],
+      ["Wayne's World", 1992, "Penelope Spheeris"],
+      ["Ghost in the Shell", 1995, "Mamoru Oshii"],
+      ["The Lost Boys", 1987, "Joel Schumacher"],
+      ["Airplane!", 1980, "Jim Abrahams, David Zucker, Jerry Zucker"],
+      ["Tremors", 1990, "Ron Underwood"],
+      ["Lethal Weapon", 1987, "Richard Donner"],
+      ["Face/Off", 1997, "John Woo"],
+      ["Akira", 1988, "Katsuhiro Otomo"],
+      ["The Silence of the Lambs", 1991, "Jonathan Demme"],
+      ["Die Hard: With a Vengeance", 1995, "John McTiernan"],
+      ["Grave Decisions", 2006, "Marcus H. Rosenmüller"],
+      ["Spectre", 2015, "Sam Mendes"],
+      ["Vertigo", 1958, "Alfred Hitchcock"],
+      ["The Fifth Element", 1997, "Luc Besson"],
+      ["The Good, the Bad and the Ugly", 1966, "Sergio Leone"],
+      ["Alien", 1979, "Ridley Scott"],
+      ["Aliens", 1986, "James Cameron"],
+      ["Apocalypse Now Redux", 2001, "Francis Ford Coppola"],
+      ["Blade Runner", 1982, "Ridley Scott"],
+      ["Das Boot", 1981, "Wolfgang Petersen"],
+      ["Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", 1964, "Stanley Kubrick"],
+      ["Drop Dead Gorgeous", 1999, "Michael Patrick Jann"],
+      ["Gattaca", 1997, "Andrew Niccol"],
+      ["Gladiator", 2000, "Ridley Scott"],
+      ["Hero", 2002, "Zhang Yimou"],
+      ["Lord of War", 2005, "Andrew Niccol"],
+      ["Brazil", 1985, "Terry Gilliam"],
+      ["The Matrix", 1999, "Lana Wachowski, Lilly Wachowski"],
+      ["Stalker", 1979, "Andrei Tarkovsky"],
+      ["The Jungle Book", 1967, "Wolfgang Reitherman"],
+      ["Pulp Fiction", 1994, "Quentin Tarantino"],
+      ["Kill Bill: Vol. 1", 2003, "Quentin Tarantino"],
+      ["Kill Bill: Vol. 2", 2004, "Quentin Tarantino"],
+      ["The Cook, the Thief, His Wife & Her Lover", 1989, "Peter Greenaway"],
+      ["Parasite", 2019, "Bong Joon-ho"],
+      ["The Blues Brothers", 1980, "John Landis"],
+      ["Barry Lyndon", 1975, "Stanley Kubrick"],
+      ["Scott Pilgrim vs. the World", 2010, "Edgar Wright"],
+      ["Solaris", 2002, "Steven Soderbergh"],
+      ["The Dark Knight", 2008, "Christopher Nolan"],
+      ["The Pianist", 2002, "Roman Polanski"],
+      ["The Prestige", 2006, "Christopher Nolan"],
+      ["V for Vendetta", 2006, "James McTeigue"],
+      ["Watchmen", 2009, "Zack Snyder"],
+      ["Interstellar", 2014, "Christopher Nolan"],
+      ["My Favourite Cake", 2024, "Maryam Moghaddam, Behtash Sanaeeha"],
+      ["Run Lola Run", 1998, "Tom Tykwer"],
+      ["My Neighbor Totoro", 1988, "Hayao Miyazaki"],
+      ["Tenet", 2020, "Christopher Nolan"],
+      ["William Shakespeare's Romeo + Juliet", 1996, "Baz Luhrmann"],
+      ["Fido", 2006, "Andrew Currie"],
+      ["12 Monkeys", 1995, "Terry Gilliam"],
+      ["Life of Brian", 1979, "Terry Jones"],
+      ["Life Is Beautiful", 1997, "Roberto Benigni"],
+      ["Flow", 2024, "Gints Zilbalodis"],
+      ["Three Wishes for Cinderella", 1973, "Václav Vorlíček"],
+      ["Spirited Away", 2001, "Hayao Miyazaki"],
+      ["Paterson", 2016, "Jim Jarmusch"],
+      ["Nebraska", 2013, "Alexander Payne"],
+      ["Princess Mononoke", 1997, "Hayao Miyazaki"],
+      ["Moon", 2009, "Duncan Jones"],
+      ["Magnolia", 1999, "Paul Thomas Anderson"],
+      ["The Man Who Wasn't There", 2001, "Joel Coen"],
+      ["The Wall", 2012, "Julian Pölsler"],
+      ["Grave of the Fireflies", 1988, "Isao Takahata"],
+      ["The SpongeBob SquarePants Movie", 2004, "Stephen Hillenburg"],
+      ["Still Life", 2015, "Paul Anderson"],
+      ["Hunger", 2008, "Steve McQueen"],
+      ["Goodfellas", 1990, "Martin Scorsese"],
+      ["Ex Machina", 2015, "Alex Garland"],
+      ["Event Horizon", 1997, "Paul W. S. Anderson"],
+      ["Hero", 2003, "Zhang Yimou"],
+      ["Levins Mill", 1980, "Horst Seemann"],
+      ["Bend It Like Beckham", 2002, "Gurinder Chadha"],
+      ["The Kid Detective", 2020, "Evan Morgan"],
+      ["A Girl Walks Home Alone at Night", 2014, "Ana Lily Amirpour"],
+      ["No One Knows About Persian Cats", 2009, "Bahman Ghobadi"],
+      ["The Favourite", 2018, "Yorgos Lanthimos"],
+      ["The Royal Tenenbaums", 2001, "Wes Anderson"],
+      ["The International", 2009, "Tom Tykwer"],
+      ["The Brothers Bloom", 2008, "Rian Johnson"],
+      ["The Rocky Horror Picture Show", 1975, "Jim Sharman"],
+      ["Hedwig and the Angry Inch", 2001, "John Cameron Mitchell"],
+      ["Shortbus", 2006, "John Cameron Mitchell"],
+      ["Little Miss Sunshine", 2006, "Jonathan Dayton, Valerie Faris"],
+      ["Crouching Tiger, Hidden Dragon", 2000, "Ang Lee"],
+      ["Everything Everywhere All at Once", 2022, "Daniel Kwan, Daniel Scheinert"],
+      ["Galaxy Quest", 1999, "Dean Parisot"],
+      ["Tinker Tailor Soldier Spy", 2011, "Tomas Alfredson"],
+      ["Deadly Maria", 1993, "Tom Tykwer"],
+      ["Everything Is Illuminated", 2005, "Liev Schreiber"],
+      ["The Fall", 2006, "Tarsem Singh"],
+      ["Dancer in the Dark", 2000, "Lars von Trier"],
+      ["Annie Hall", 1977, "Woody Allen"],
+      ["High Fidelity", 2000, "Stephen Frears"],
+      ["A Clockwork Orange", 1971, "Stanley Kubrick"],
+      ["Three Billboards Outside Ebbing, Missouri", 2017, "Martin McDonagh"],
+      ["Dogville", 2003, "Lars von Trier"],
+      ["Con Air", 1997, "Simon West"],
+      ["Inception", 2010, "Christopher Nolan"],
+      ["Harry Potter and the Prisoner of Azkaban", 2004, "Alfonso Cuarón"],
+      ["Being John Malkovich", 1999, "Spike Jonze"],
+      ["The NeverEnding Story", 1984, "Wolfgang Petersen"]
     ]
   },
   "test": {
     "label": "Kurze Testliste",
     "films": [
-      [
-        "The Great Dictator",
-        1940,
-        "Charlie Chaplin"
-      ],
-      [
-        "Memento",
-        2000,
-        "Christopher Nolan"
-      ],
-      [
-        "There Will Be Blood",
-        2007,
-        "Paul Thomas Anderson"
-      ],
-      [
-        "Heat",
-        1995,
-        "Michael Mann"
-      ],
-      [
-        "Network",
-        1976,
-        "Sidney Lumet"
-      ],
-      [
-        "Alien",
-        1979,
-        "Ridley Scott"
-      ],
-      [
-        "GoodFellas",
-        1990,
-        "Martin Scorsese"
-      ],
-      [
-        "The Thing",
-        1982,
-        "John Carpenter"
-      ],
-      [
-        "The Shining",
-        1980,
-        "Stanley Kubrick"
-      ],
-      [
-        "Psycho",
-        1960,
-        "Alfred Hitchcock"
-      ],
-      [
-        "No Country for Old Men",
-        2007,
-        "Joel Coen, Ethan Coen"
-      ],
-      [
-        "The Matrix",
-        1999,
-        "Lana Wachowski, Lilly Wachowski"
-      ],
-      [
-        "Fargo",
-        1996,
-        "Joel Coen"
-      ],
-      [
-        "The Godfather",
-        1972,
-        "Francis Ford Coppola"
-      ],
-      [
-        "Seven Samurai",
-        1954,
-        "Akira Kurosawa"
-      ],
-      [
-        "12 Angry Men",
-        1957,
-        "Sidney Lumet"
-      ]
+      ["The Great Dictator", 1940, "Charlie Chaplin"],
+      ["Memento", 2000, "Christopher Nolan"],
+      ["There Will Be Blood", 2007, "Paul Thomas Anderson"],
+      ["Heat", 1995, "Michael Mann"],
+      ["Network", 1976, "Sidney Lumet"],
+      ["Alien", 1979, "Ridley Scott"],
+      ["GoodFellas", 1990, "Martin Scorsese"],
+      ["The Thing", 1982, "John Carpenter"],
+      ["The Shining", 1980, "Stanley Kubrick"],
+      ["Psycho", 1960, "Alfred Hitchcock"],
+      ["No Country for Old Men", 2007, "Joel Coen, Ethan Coen"],
+      ["The Matrix", 1999, "Lana Wachowski, Lilly Wachowski"],
+      ["Fargo", 1996, "Joel Coen"],
+      ["The Godfather", 1972, "Francis Ford Coppola"],
+      ["Seven Samurai", 1954, "Akira Kurosawa"],
+      ["12 Angry Men", 1957, "Sidney Lumet"]
     ]
   }
 };
