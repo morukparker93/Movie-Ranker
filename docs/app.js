@@ -340,7 +340,7 @@ function refresh() {
     `${Math.min(100, comparisons / RECOMMENDED_COMPARISONS * 100)}%`;
 }
 
-// ── Ergebnisse ──────────────────────────────────────────────────────────────
+// ── Ergebnisse und Export ──────────────────────────────────────────────────────────────
 
 function showResults() {
   const ranked = films
@@ -364,6 +364,30 @@ function showResults() {
   });
 
   showPage(resultsPage);
+}
+
+function exportTxt() {
+  const ranked = films
+    .filter(film => !film.skipped)
+    .slice()
+    .sort((a, b) => b.elo - a.elo);
+
+  const lines = [
+    "MEIN PERSÖNLICHES FILM-RANKING",
+    `${comparisons} Vergleiche · ${ranked.length} aktive Filme`,
+    "",
+    ...ranked.map((film, i) =>
+      `${String(i + 1).padStart(3, " ")}. ${film.title} (${film.year}) – ${film.director}  [ELO ${film.elo}]`
+    )
+  ];
+
+  const blob = new Blob([lines.join("\n")], { type: "text/plain" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = "film_ranking.txt";
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 // ── Utils ───────────────────────────────────────────────────────────────────
@@ -414,6 +438,7 @@ undoButton.addEventListener("click", undo);
 resultsButton.addEventListener("click", showResults);
 resetButton.addEventListener("click", () => window.location.reload());
 backButton.addEventListener("click", () => showPage(quizPage));
+document.querySelector("#exportButton").addEventListener("click", exportTxt);
 
 cards.forEach((card, side) => {
   card.addEventListener("click", () => choose(side));
