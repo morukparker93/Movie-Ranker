@@ -2,7 +2,6 @@
 
 const INITIAL_ELO = 1500;
 const ELO_K = 32;
-const RECOMMENDED_COMPARISONS = 500;
 
 const LOW_ELO_THRESHOLD = 1420;
 const HIGH_ELO_THRESHOLD = 1565;
@@ -334,13 +333,19 @@ function undo() {
 
 function refresh() {
   const skipped = films.filter(film => film.skipped).length;
-  const remaining = Math.max(0, RECOMMENDED_COMPARISONS - comparisons);
+  const f_length = films.filter(film => !film.skipped).length;
+  let recommended_comparisons = (f_length * (f_length - 1)) / 2;
+  
+  // recommended comparisons are dynamically calculated
+  if (recommended_comparisons > 500){
+    recommended_comparisons = Math.round(2.5 * f_length);
+  }
+  
+  const remaining = Math.max(0, recommended_comparisons - comparisons);
 
-  statusText.textContent =
-    `Vergleiche: ${comparisons} · ~${remaining} empfohlen · ${skipped} übersprungen`;
-
+  statusText.textContent = `Vergleiche: ${comparisons} · ~${remaining} empfohlen · ${skipped} übersprungen`;
   progressFill.style.width =
-    `${Math.min(100, comparisons / RECOMMENDED_COMPARISONS * 100)}%`;
+    `${Math.min(100, comparisons / recommended_comparisons * 100)}%`;
 }
 
 // ── Ergebnisse und Export ──────────────────────────────────────────────────────────────
@@ -454,12 +459,10 @@ newTitleInput.addEventListener("keydown", event => {
 addFilmButton.addEventListener("click", addFilm);
 listSelect.addEventListener("change", () => resetRankingForList(listSelect.value));
 startButton.addEventListener("click", startQuiz);
-
 undoButton.addEventListener("click", undo);
 resultsButton.addEventListener("click", showResults);
 resetButton.addEventListener("click", () => window.location.reload());
 backButton.addEventListener("click", () => showPage(quizPage));
-
 exportButton.addEventListener("click", exportTxt);
 finetuneButton.addEventListener("click", startFinetuning);
 
