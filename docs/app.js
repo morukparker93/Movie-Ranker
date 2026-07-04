@@ -23,22 +23,23 @@ function createFilms(rawFilms) {
   const films = [];
   const seen = new Set();
 
-  for (const [title, year, director] of rawFilms) {
+  for (const [title, year, director, altTitle = ""] of rawFilms) {
     const key = title.toLowerCase().trim();
     if (seen.has(key)) continue;
 
     seen.add(key);
-    films.push(newFilm(title, year, director));
+    films.push(newFilm(title, year, director, altTitle));
   }
 
   return films;
 }
 
-function newFilm(title, year = "?", director = "Unbekannt") {
+function newFilm(title, year = "?", director = "Unbekannt", altTitle = "") {
   return {
     title,
     year,
     director,
+    altTitle,
     elo: INITIAL_ELO,
     wins: 0,
     losses: 0,
@@ -200,16 +201,17 @@ function checkTitle() {
   }
 
   // exact match
-  const exact = films.find(film => normalize(film.title) === query);
+  const exact = films.find(film => normalize(film.title) === query || normalize(film.altTitle) === query);
   if (exact) {
     setFeedback(`„${exact.title}” ist bereits in der Liste.`, "good");
     return;
   }
 
   // safe partial match, only after 3 characters
+  // works for english title oder german title
   let partial = null;
   if (query.length >= 3) {
-    partial = films.find(film => normalize(film.title).includes(query));
+    partial = films.find(film => normalize(film.title).includes(query) || normalize(film.altTitle).includes(query));
   }
 
   if (partial) {
