@@ -262,6 +262,16 @@ function updateCard(side, film) {
   card.querySelector(".year").textContent = film.year;
   card.querySelector(".title").textContent = film.title;
   card.querySelector(".director").textContent = film.director;
+  
+  // Set poster image or a fallback UI avatar
+  const posterImg = card.querySelector(".poster");
+  if (film.poster) {
+    posterImg.src = film.poster;
+  } else {
+    // Generate placeholder if no poster URL is present
+    const encodedTitle = encodeURIComponent(film.title_en || film.title);
+    posterImg.src = `https://ui-avatars.com/api/?name=${encodedTitle}&size=400&background=random&color=fff&length=2`;
+  }
 }
 
 function choose(side) {
