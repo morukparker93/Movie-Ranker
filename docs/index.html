@@ -24,6 +24,21 @@
 
       <p id="addFeedback" class="feedback"></p>
 
+      <div class="year-filter">
+        <label>Release-Jahr eingrenzen:</label>
+        <div class="range-slider">
+          <span id="yearMinLabel" class="range-label">1920</span>
+          <div class="range-track-wrap">
+            <div class="range-track"></div>
+            <div id="rangeHighlight" class="range-highlight"></div>
+            <input type="range" id="yearMin" min="1920" max="2026" value="1920" step="1">
+            <input type="range" id="yearMax" min="1920" max="2026" value="2026" step="1">
+          </div>
+          <span id="yearMaxLabel" class="range-label">2026</span>
+        </div>
+        <p id="yearFilterInfo" class="subtle"></p>
+      </div>
+
       <div class="start-actions">
         <button id="startButton" class="primary" type="button">Abfrage starten →</button>
       </div>

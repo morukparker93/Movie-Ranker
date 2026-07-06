@@ -158,6 +158,13 @@ const resultsInfo = document.querySelector("#resultsInfo");
 const exportButton = document.querySelector("#exportButton");
 const finetuneButton = document.querySelector("#finetuneButton");
 
+const yearMinInput = document.querySelector("#yearMin");
+const yearMaxInput = document.querySelector("#yearMax");
+const yearMinLabel = document.querySelector("#yearMinLabel");
+const yearMaxLabel = document.querySelector("#yearMaxLabel");
+const rangeHighlight = document.querySelector("#rangeHighlight");
+const yearFilterInfo = document.querySelector("#yearFilterInfo");
+
 const cards = [
   document.querySelector("#card0"),
   document.querySelector("#card1")
@@ -183,6 +190,8 @@ function resetRankingForList(listKey) {
   pair = [];
   newTitleInput.value = "";
   setFeedback(`${FILM_LISTS[currentListKey].label}: ${films.length} Filme geladen.`, "good");
+  updateYearSliderRange();
+  updateYearFilter();
 }
 
 function normalize(text) {
@@ -234,9 +243,79 @@ function addFilm() {
   setFeedback(`✓ „${title}” wurde hinzugefügt.`, "good");
 }
 
+// ── Year Range Slider ────────────────────────────────────────────────────────
+
+function updateYearSliderRange() {
+  const years = films.map(f => typeof f.year === "number" ? f.year : parseInt(f.year, 10)).filter(y => !isNaN(y));
+  if (years.length === 0) return;
+  const min = Math.min(...years);
+  const max = Math.max(...years);
+  yearMinInput.min = min;
+  yearMinInput.max = max;
+  yearMinInput.value = min;
+  yearMaxInput.min = min;
+  yearMaxInput.max = max;
+  yearMaxInput.value = max;
+}
+
+function updateYearFilter() {
+  let minVal = parseInt(yearMinInput.value, 10);
+  let maxVal = parseInt(yearMaxInput.value, 10);
+
+  // prevent crossing
+  if (minVal > maxVal) {
+    yearMinInput.value = maxVal;
+    minVal = maxVal;
+  }
+  if (maxVal < minVal) {
+    yearMaxInput.value = minVal;
+    maxVal = minVal;
+  }
+
+  yearMinLabel.textContent = minVal;
+  yearMaxLabel.textContent = maxVal;
+
+  // highlight bar
+  const rangeMin = parseInt(yearMinInput.min, 10);
+  const rangeMax = parseInt(yearMinInput.max, 10);
+  const span = rangeMax - rangeMin || 1;
+  const leftPct = ((minVal - rangeMin) / span) * 100;
+  const rightPct = ((maxVal - rangeMin) / span) * 100;
+  
+  // Update CSS custom properties on the wrapper
+  const wrap = rangeHighlight.closest('.range-track-wrap');
+  if (wrap) {
+    wrap.style.setProperty('--left', leftPct + '%');
+    wrap.style.setProperty('--right', (100 - rightPct) + '%');
+  }
+
+  // count filtered films
+  const count = films.filter(f => {
+    const y = typeof f.year === "number" ? f.year : parseInt(f.year, 10);
+    return !isNaN(y) && y >= minVal && y <= maxVal;
+  }).length;
+  yearFilterInfo.textContent = `${count} von ${films.length} Filmen im gewählten Zeitraum`;
+}
+
 // ── Quiz ────────────────────────────────────────────────────────────────────
 
 function startQuiz() {
+  // apply year filter: mark films outside selected range as skipped
+  const minYear = parseInt(yearMinInput.value, 10);
+  const maxYear = parseInt(yearMaxInput.value, 10);
+  for (const film of films) {
+    const y = typeof film.year === "number" ? film.year : parseInt(film.year, 10);
+    if (isNaN(y) || y < minYear || y > maxYear) {
+      film.skipped = true;
+    }
+  }
+
+  const active = films.filter(f => !f.skipped);
+  if (active.length < 2) {
+    alert("Nicht genug Filme im gewählten Zeitraum. Bitte den Filter anpassen.");
+    return;
+  }
+
   showPage(quizPage);
   refresh();
   nextPair();
@@ -468,6 +547,8 @@ newTitleInput.addEventListener("keydown", event => {
 
 addFilmButton.addEventListener("click", addFilm);
 listSelect.addEventListener("change", () => resetRankingForList(listSelect.value));
+yearMinInput.addEventListener("input", updateYearFilter);
+yearMaxInput.addEventListener("input", updateYearFilter);
 startButton.addEventListener("click", startQuiz);
 undoButton.addEventListener("click", undo);
 resultsButton.addEventListener("click", showResults);
