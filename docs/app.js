@@ -11,6 +11,8 @@ const HIGH_ELO_WEIGHT = 2.0;
 // ── State ───────────────────────────────────────────────────────────────────
 
 let currentListKey = "letterboxd";
+let originalFilms = []; // Backup für Feintuning
+let isFinetuning = false;
 let films = createFilms(FILM_LISTS[currentListKey].films);
 let comparedPairs = new Set();
 let comparisons = 0;
@@ -185,6 +187,8 @@ function setFeedback(text, type = "") {
 function resetRankingForList(listKey) {
   currentListKey = listKey;
   films = createFilms(FILM_LISTS[currentListKey].films);
+  originalFilms = [];
+  isFinetuning = false;
   comparisons = 0;
   history = [];
   pair = [];
@@ -446,7 +450,16 @@ function showResults() {
     .sort((a, b) => b.elo - a.elo);
 
   rankingBody.innerHTML = "";
-  resultsInfo.textContent = `${comparisons} Vergleiche · ${ranked.length} aktive Filme`;
+  
+  if (isFinetuning) {
+    resultsInfo.textContent = `Feintuning: ${comparisons} Vergleiche · ${ranked.length} aktive Filme`;
+    finetuneButton.style.display = "none";
+    backButton.textContent = "Zurück zum Haupt-Ranking";
+  } else {
+    resultsInfo.textContent = `${comparisons} Vergleiche · ${ranked.length} aktive Filme`;
+    finetuneButton.style.display = "inline-block";
+    backButton.textContent = "Zurück zur Abfrage";
+  }
 
   ranked.forEach((film, index) => {
     const row = document.createElement("tr");
@@ -495,13 +508,39 @@ function startFinetuning() {
 
   const top20 = ranked.slice(0, Math.ceil(ranked.length * 0.2));
 
-  films = top20.map(film => newFilm(film.title, film.year, film.director));
+  // Backup der aktuellen Session speichern, bevor wir überschreiben
+  originalFilms = films;
+  isFinetuning = true;
+
+  // Feintuning-Filme mit allen Eigenschaften (inkl. Poster) erzeugen
+  films = top20.map(film => {
+    const newF = newFilm(film.title, film.year, film.director, film.altTitle, film.poster);
+    newF.elo = INITIAL_ELO; // Reset ELO für sauberes Feintuning
+    return newF;
+  });
+
   comparisons = 0;
   history = [];
   pair = [];
   comparedPairs = new Set();
 
   startQuiz();
+}
+
+function exitFinetuning() {
+  if (!isFinetuning) return;
+  
+  // Backup wiederherstellen
+  films = originalFilms;
+  isFinetuning = false;
+  originalFilms = [];
+  
+  // Die Haupt-Historie & Vergleiche sind unwiederbringlich weg, 
+  // da wir im Feintuning globale Zähler (`comparisons`, `history`) überschrieben haben.
+  // Um das sauber zu lösen, triggern wir besser einen Hard-Refresh für das gewählte Listen-Set,
+  // ODER wir zeigen einfach die Results der großen Liste wieder an, was aber eine tiefergehende State-Speicherung bräuchte.
+  // Einfachste und sauberste Lösung für den "Zurück" Klick aus dem Feintuning:
+  showResults();
 }
 
 // ── Utils ───────────────────────────────────────────────────────────────────
@@ -553,7 +592,13 @@ startButton.addEventListener("click", startQuiz);
 undoButton.addEventListener("click", undo);
 resultsButton.addEventListener("click", showResults);
 resetButton.addEventListener("click", () => window.location.reload());
-backButton.addEventListener("click", () => showPage(quizPage));
+backButton.addEventListener("click", () => {
+  if (isFinetuning) {
+    exitFinetuning();
+  } else {
+    showPage(quizPage);
+  }
+});
 exportButton.addEventListener("click", exportTxt);
 finetuneButton.addEventListener("click", startFinetuning);
 
