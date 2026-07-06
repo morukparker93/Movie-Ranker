@@ -23,23 +23,24 @@ function createFilms(rawFilms) {
   const films = [];
   const seen = new Set();
 
-  for (const [title, year, director, altTitle = ""] of rawFilms) {
+  for (const [title, year, director, altTitle = "", poster = ""] of rawFilms) {
     const key = title.toLowerCase().trim();
     if (seen.has(key)) continue;
 
     seen.add(key);
-    films.push(newFilm(title, year, director, altTitle));
+    films.push(newFilm(title, year, director, altTitle, poster));
   }
 
   return films;
 }
 
-function newFilm(title, year = "?", director = "Unbekannt", altTitle = "") {
+function newFilm(title, year = "?", director = "Unbekannt", altTitle = "", poster = "") {
   return {
     title,
     year,
     director,
     altTitle,
+    poster,
     elo: INITIAL_ELO,
     wins: 0,
     losses: 0,
@@ -263,15 +264,12 @@ function updateCard(side, film) {
   card.querySelector(".title").textContent = film.title;
   card.querySelector(".director").textContent = film.director;
   
-  // Set poster image or a fallback UI avatar
+  // Set poster image with a robust fallback placeholder
   const posterImg = card.querySelector(".poster");
-  if (film.poster) {
-    posterImg.src = film.poster;
-  } else {
-    // Generate placeholder if no poster URL is present
-    const encodedTitle = encodeURIComponent(film.title_en || film.title);
-    posterImg.src = `https://ui-avatars.com/api/?name=${encodedTitle}&size=400&background=random&color=fff&length=2`;
-  }
+  const encodedTitle = encodeURIComponent(film.title_en || film.title);
+  const placeholder = `https://ui-avatars.com/api/?name=${encodedTitle}&size=400&background=1c1c1e&color=fff&length=2&bold=true`;
+  posterImg.onerror = () => { posterImg.onerror = null; posterImg.src = placeholder; };
+  posterImg.src = film.poster ? film.poster : placeholder;
 }
 
 function choose(side) {
